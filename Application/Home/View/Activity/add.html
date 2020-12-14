@@ -1,0 +1,59 @@
+<extend name="Public:layout"/>
+<block name="main-content">
+    <div class="m-maintainInfo" style="display: none;">
+        <div id="maintain_info_box" class="g-flow"></div>
+    </div>
+    <div id="advertisement_box" class="advertisement_box f-pf" style="display: none;"></div>
+    <div class="g-flow abt f-cb">
+        <div class="g-mn1 abt">
+            <div class="g-mn1c abt">
+                <div id="about-box" class="f-bg">
+                    <div class="m-about f-cb">
+                        <div id="auto-id-1450193523781" style="" class="about_con j-aboutCon f-bg f-pr f-cb" data-type="8">
+                            <h2 class="tabtit">请填写您的信息</h2>
+                            <div class="about_content j-aboutContent">
+                                <div class="m-feedbackSys">
+                                    <form method="post" action="__CONTROLLER__/add">
+                                        <foreach name="datas" item="datas">
+                                    </foreach>
+                                        <div class="title f-cb">
+                                            <h2 class="feed-tit">您参加的活动是：{$datas.activityname}</h2>
+                                        </div>
+                                        <div class="title f-cb">
+                                            <p class="feed-tit"><em class="f-sign">*</em>您的姓名</p>
+                                            <div class="f-cb">
+                                                <div class="j-feed-content auto-1450193523645-parent">
+                                                    <div class="m-nesIpt f-cb auto-1450193523645">
+                                                        <div class="area j-inputArea f-fl auto-1450193523612-parent">
+                                                            <div style="width: 500px; height: 35px;" class="m-baseinputui auto-1450193523612">
+                                                                <textarea style="width:500px; height:25px;" id="auto-id-1450193523802" name="username" class="j-textarea inputtxt"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="contect">
+                                            <p class="feed-tit"><em class="f-sign">*</em>联系方式</p>
+                                            <div class="f-cb">
+                                                <div class="j-feed-content auto-1450193523645-parent">
+                                                    <div class="m-nesIpt f-cb auto-1450193523645">
+                                                        <div class="area j-inputArea f-fl auto-1450193523612-parent">
+                                                            <div style="width: 500px; height: 32px;" class="m-baseinputui auto-1450193523612">
+                                                                <textarea  style="width: 500px; height: 25px;" id="auto-id-1450193523828" name="phone" class="j-textarea inputtxt" placeholder=""></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <input type="hidden"name="uid"value="{$_SESSION.id}"/>
+                                                <input type="hidden"name="place"value="{$datas.place}"/>
+                                                <input type="hidden"name="activityid"value="{$datas.activityid}"/>
+                                                <input type="hidden"name="money"value="{$datas.money}"/>
+                                                <input type="hidden"name="activityname"value="{$datas.activityname}"/>
+                                                <input type="hidden"name="begintime"value="{$datas.begintime}"/>
+                                                <input type="hidden"name="overtime"value="{$datas.overtime}"/>
+                                            </div>
+                                        </div>
+                                        <div><a style="margin-left:20px;"><button type="submit"name="sub" value="sub" style="background:#18A539;width:150px;height:50px;font-size:20px;color:#fff;">付款并加入</button></a></div>
+                                    </form></div></div></div></div></div></div></div></div>
+</block>

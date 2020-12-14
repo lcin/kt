@@ -1,0 +1,285 @@
+<extend name="Public:layout" />
+<block name="main-content">
+<style type="text/css">
+	#page a{
+		float:left;
+		text-indent:20px;
+	}
+</style>
+<div class="g-flow f-cb">
+	<div id="j-catbox" class="m-catebox f-pr f-cb">
+		<ul class="level-1">
+			<li class="level-1-item f-pr" id="catId-all">
+				<a href="" >全部</a>
+				<span class="arrow"> 
+					<span class="arrow_wrap arrow-wrap-trsp"> 
+						<i class="arrow-border"></i> 
+						<em class="arrow-cnt"></em> 
+					</span> 
+				</span> 
+			</li>
+			
+			<foreach name="types" item="type">
+			<li class="level-1-item f-pr selected" id="catId-3">
+				<a href="__APP__/id/{$type.id}" class="myType" value="{$type.id}"> {$type.name}</a>
+				<span class="arrow"> 
+					<span class="arrow_wrap arrow-wrap-trsp"> 
+						<i class="arrow-border"></i> 
+						<em class="arrow-cnt"></em> 
+					</span> 
+				</span> 
+			</li>
+			</foreach>
+		</ul>
+		<ul class="level-2 f-dn">
+		  <li class="level-2-item" id="auto-id-1449466894342"><span>请选择相关分类...</span></li>
+		</ul>
+		
+		<!--遍历子栏目-->
+		<ul class="level-2" style="" id="myUl">
+			<li class="level-2-slash"></li>
+		</ul>
+	</div>
+	<div class="b-20"></div>
+<div id="GG">
+	<div class="g-mn2" style="float:left">
+		<div class="g-mn2c">
+			<div id="j-breadTit" class="u-topTit" style="padding-top: 0px;"></div>
+			<div id ="logo" class="m-slide f-pr" id="j-slideBox">
+				<a class="slide j-slide" target="_blank" id="auto-id-1449466894351" href="" data-index="2">
+					<foreach name="advs" item="advs">
+						<switch name="advs.place">
+						<case value="0"><img id="auto-id-1449466894546" src="__PUBLIC__/Upload/{$advs.pic}" style="opacity: 1; transition-property: opacity; transition-duration: 1s; transition-timing-function: ease-in-out; border='1px solid blue'"></case>
+						</switch>
+					</foreach>
+					<!-- <img id="auto-id-1449466894546" src="__PUBLIC__/Home/imgs/567256d653ec6.jpg" style="opacity: 1; transition-property: opacity; transition-duration: 1s; transition-timing-function: ease-in-out; border='1px solid blue'">
+					<img id="auto-id-1449466894546" src="__PUBLIC__/Home/imgs/6630608169839812534.jpg" style="opacity: 1; transition-property: opacity; transition-duration: 1s; transition-timing-function: ease-in-out; border='1px solid blue'"> -->
+				</a>
+        
+			</div>
+			<div class="m-coursebox">
+				<div id="j-topBar" class="top f-cb auto-1449466894243-parent auto-1449466894224-parent">
+					<div class="m-cSelUI f-cb auto-1449466894243 f-fl">
+						<a class="f-fl f-fc3 j-type selected" id="auto-id-1449466894369">
+						全部
+						</a>
+						<a class="f-fl f-fc3 j-type" id="auto-id-1449466894370">
+						随到随学
+						</a>
+						<a class="f-fl f-fc3 j-type" id="auto-id-1449466894371">
+						正在开课</a>
+						<a class="f-fl f-fc3 j-type" id="auto-id-1449466894372">
+						即将开始
+						</a>
+						<a class="f-fl f-fc3 j-type" id="auto-id-1449466894373">
+						已结束
+						</a>
+					</div>
+					<div class="f-cb auto-1449466894224 f-fr">
+					<a class="j-sort sort f-fl f-fc3 selected" id="auto-id-1449466894375">
+					热门
+					</a>
+					<div class="f-fl sep">-</div>
+						<a class="j-sort sort f-fl f-fc3" id="auto-id-1449466894376">
+							最新
+						</a>
+						<div class="j-sort sort f-fl f-cb">
+							<div class="f-fl sep">-</div>
+							<div class="u-select f-fl" id="auto-id-1449466894383">
+								<div class="up j-up f-thide">价格</div>
+								<div class="down f-bg j-list" style="display: none;">
+									<div class="f-thide list" title="价格由高到低" id="auto-id-1449466894379">
+											价格由高到低
+									</div>
+									<div class="f-thide list" title="价格由低到高" id="auto-id-1449466894381">
+											价格由低到高
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		    </div>
+        <div id="j-courseNode" class="lists auto-1449466894196-parent">
+         
+			<div class="m-basepool f-cb auto-1449466894196">
+				<div id ="hh"class="m-data-lists f-cb f-pr j-data-list"style="width:100%">
+				<foreach name="typeData" item="ty">
+					<div class="u-cover u-find-cover first" id="auto-id-1449466894429" style="margin-left:14px">
+						<div class="wrap f-cb">
+							<a href="__APP__/Course/index/id/{$ty.id}" target="_blank" class="j-href wrap" data-href="/course/introduction/1367011.htm" data-index="1" data-name="C/C++黑客编程项目实战课程  【择善教育】">
+
+							<div class="img">
+								<div class="pic f-pr">
+									<img class="imgPic" src="__PUBLIC__/Upload/{$ty.video}" alt="C/C++黑客编程项目实战课程  【择善教育】">
+								</div>
+								<div class="tit">
+								  <h3 class="f-thide">{$ty.title}</h3>
+								  <div class="continued sign ">老师参与</div>
+								  <div class="continued sign foxconn2 f-dn foxconn"></div>
+								</div>
+								<div class="orgName f-fs0 f-thide">{$ty.teacher}</div>
+								<div class="thumb">
+									<div class="desc f-cb"> 
+										<span class="hot f-fs0">{$ty.number}</span>
+									</div>
+									<div  style="height:20px;background:white;margin-top:10px;"> 
+										<if condition="$ty.price eq 0.00"><span class="normal f-fs0" style="color:#93D250;font-size:12px;"><b>免费</b></span> 
+										<else /><span class="normal f-fs0" style="color:#FE4000;font-size:12px"><b>¥{$ty.price}</b></span> 
+										</if>
+ 
+									</div>
+								</div>
+								<div class="f-dn"></div>
+							</div>
+				  
+							</a>
+							<div class="j-mask mask" data-id="1367011" style="display:none">
+								<div class="j-del delbtn"></div>
+							</div>
+						</div>
+					</div>
+				</foreach>	
+				</div>	
+			</div>
+		</div>
+
+
+		<div id="page">
+			{$page}
+		</div>
+        </div>
+    </div>
+    <div id="j-empty" class="u-emptybig" style="display: none;">
+          <p class="emptytext">暂无课程</p>
+    </div>
+  
+   <!--加-->
+     
+   
+  <div class="g-sd2" style="margin-top:0px" >
+    <div class="m-livebox">
+      <div class="u-topTit">讲师直播<span class="livingicn f-ib"></span></div>
+      <div id="j-liveBox" class="u-sideGray list"> <a class="c f-fc3 f-thide" data-index="1" data-name="2016考研西理工《材料科学基础》冲刺高分策略" href="http://study.163.com/course/introduction/1579002.htm" target="_blank" title="2016考研西理工《材料科学基础》冲刺高分策略"> [12月07日 18:00] 2016考研西理工《材料科学基础》冲刺高分策略 </a> <a class="c f-fc3 f-thide" data-index="2" data-name="背包游遍西班牙" href="http://study.163.com/course/introduction/1471002.htm" target="_blank" title="背包游遍西班牙"> [12月07日 19:00] 背包游遍西班牙 </a> <a class="u-more f-cb" data-index="更多" data-name="更多" href="http://study.163.com/find.htm#/courselist?ct=0"><span>更多</span><span class="icn"></span></a> </div>
+    </div>
+    <div class="b-20"></div>
+    <div class="m-livebox">
+      <div class="u-topTit">系列课程</div>
+      <div class="u-sideGray list">
+        <div id="j-alltpic">
+          <li class="f-thide"><a class="f-fc3" target="_blank" href="http://study.163.com/series/86001.htm" data-index="1" data-name="美得不像话的Office系列">美得不像话的Office系列</a></li>
+          <li class="f-thide"><a class="f-fc3" target="_blank" href="http://study.163.com/series/81001.htm" data-index="2" data-name="卖家打造爆款就靠这几招">卖家打造爆款就靠这几招</a></li>
+          <li class="f-thide"><a class="f-fc3" target="_blank" href="http://study.163.com/series/61002.htm" data-index="3" data-name="手把手教你做优秀外企财务">手把手教你做优秀外企财务</a></li>
+          <li class="f-thide"><a class="f-fc3" target="_blank" href="http://study.163.com/series/80001.htm" data-index="4" data-name="平面设计师必学4大技能">平面设计师必学4大技能</a></li>
+        </div>
+        <a class="u-more f-cb" data-index="更多" data-name="更多" href="http://study.163.com/series/all.htm"><span>更多</span><span class="icn"></span></a> </div>
+    </div>
+    <div class="b-20"></div>
+    <div id="j-rankbox">
+      <div class="u-topTit"> <a class="f-fc3 j-rankType selected" id="auto-id-1449466894340">付费排行</a><span style="margin:0 5px;color:#ddd;">|</span><a class="f-fc3 j-rankType" id="auto-id-1449466894341">免费排行</a> </div>
+      <div class="u-sideGray j-ranklist" id="auto-id-1449466894352">
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num1">01</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="1" data-name="和秋叶一起学PPT" data-gatitle="付费排行" href="http://study.163.com/course/introduction/381006.htm" target="_blank" title="和秋叶一起学PPT">和秋叶一起学PPT</a> </div>
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num2">02</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="2" data-name="和秋叶一起学职场技能" data-gatitle="付费排行" href="http://study.163.com/course/introduction/967019.htm" target="_blank" title="和秋叶一起学职场技能">和秋叶一起学职场技能</a> </div>
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num3">03</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="3" data-name="英语口语革命" data-gatitle="付费排行" href="http://study.163.com/course/introduction/940019.htm" target="_blank" title="英语口语革命">英语口语革命</a> </div>
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num4">04</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="4" data-name="和阿文一起学信息图表" data-gatitle="付费排行" href="http://study.163.com/course/introduction/.htm#/courseDetail" target="_blank" title="和阿文一起学信息图表">和阿文一起学信息图表</a> </div>
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num5">05</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="5" data-name="手机摄影达人速成" data-gatitle="付费排行" href="http://study.163.com/course/introduction/1128006.htm" target="_blank" title="手机摄影达人速成">手机摄影达人速成</a> </div>
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num6">06</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="6" data-name="无痛英语第一季" data-gatitle="付费排行" href="http://study.163.com/course/introduction/995029.htm" target="_blank" title="无痛英语第一季">无痛英语第一季</a> </div>
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num7">07</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="7" data-name="和秋叶一起学Word" data-gatitle="付费排行" href="http://study.163.com/course/introduction/747046.htm#/courseDetail" target="_blank" title="和秋叶一起学Word">和秋叶一起学Word</a> </div>
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num8">08</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="8" data-name="表格之道(专业版)" data-gatitle="付费排行" href="http://study.163.com/course/introduction/720001.htm" target="_blank" title="表格之道(专业版)">表格之道(专业版)</a> </div>
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num9">09</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="9" data-name="向《经济学人》学图表" data-gatitle="付费排行" href="http://study.163.com/course/introduction/1337018.htm" target="_blank" title="向《经济学人》学图表">向《经济学人》学图表</a> </div>
+        <div class="u-rankItm f-cb">
+          <div class="f-fl num num10">10</div>
+          <a class="f-fl f-fc3 f-thide name" data-index="10" data-name="Meta分析简明教程" data-gatitle="付费排行" href="http://study.163.com/course/introduction/1169005.htm" target="_blank" title="Meta分析简明教程">Meta分析简明教程</a> </div>
+      </div>
+    </div>
+    <div class="b-20"></div>
+    
+   
+</div>
+	
+<script type="text/javascript" src="__PUBLIC__/Home/js/ajax.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.js"></script>
+<script>
+	   $(".myType").click(function(){
+			var id = $(this).attr('value');
+		     $.post("__APP__/Type/type",{"id":id},function(data){
+				var len=data.length;
+				var html="";
+				for(var i=0;i<len;i++){
+					html +="<li class='level-2-slash'><a class='A' dd="+data[i]['id']+">"+data[i]['name']+"</a></li>";
+				}
+				$('#myUl').html(html);
+				
+			 },'json');
+			return false;
+	   });
+	   
+	   $(".A").live("click",function(){
+	        var id =$(this).attr('dd');
+			$.post("__APP__/Type/video",{"id":id},function(data){
+			
+			//var len=data.length;
+			var html ="";
+			for(var i in data){
+				html +="<div class='u-cover u-find-cover first' id='auto-id-1449466894429'style='margin-left:14px'><div class='wrap f-cb'><a href='__APP__/Course/index/id/"+data[i]['id']+"' target='_blank' class='j-href wrap' data-href='/course/introduction/1367011.htm' data-index='1' data-name='C/C++黑客编程项目实战课程  【择善教育】'><div class='img'><div class='pic f-pr'> <img class='imgPic' src='__PUBLIC__/Upload/"+data[i]['video']+"' alt='C/C++黑客编程项目实战课程  【择善教育】'> </div><div class='tit'><h3 class='f-thide'>"+data[i]['title']+"</h3><div class='continued sign '>老师参与</div><div class='continued sign foxconn2 f-dn foxconn'></div></div><div class='orgName f-fs0 f-thide'>"+data[i]['tname']+"</div><div class='thumb'><div class='desc f-cb'> <span class='hot f-fs0'>"+data[i]['number']+"</span></div><div style='height:20px;background:white;margin-top:10px;'><span class='normal f-fs0'style='color:red;font-size:20px'>"+data[i]['price']+"</span> <span class='discount'></span> </div></div><div class='f-dn'></div></div></a><div class='j-mask mask' data-id='1367011' style='display:none'><div class='j-del delbtn'></div></div></div></div>";
+			}
+			 $("#hh").html(html);
+		  },"json"); 
+			
+		});
+		
+		$("#login > img").hover(function(){
+			$("#login1").fadeIn(1000,function(){
+				$("#login1").css("display","block");
+			});
+		},function(){
+			$("#login1").hover(function(){
+				var time=setInterval(function(){
+					$("#login1").css("display","none");
+				},3000);
+			},function(){
+				$("#login1").fadeOut(1000,function(){
+					$("#login1").css("display","none");
+				});
+			});
+		});
+		
+			<!-- 滚动的广告 -->
+	var n=0;
+	var time =setInterval(function(){
+		if(n<3){
+			$("#logo img").css("display","none");
+			$("#logo img").eq(n).css("display","block");
+			
+			n++;
+		}else{
+			n=0;
+		}	
+	},2000);
+	/*
+	$("#logo img").hover(function(){
+		clearInterval(time);
+	},function(){
+		
+	});*/
+	  
+  </script>
+</block>

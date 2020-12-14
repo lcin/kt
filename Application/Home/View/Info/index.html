@@ -1,0 +1,62 @@
+<extend name="Public:layout" />
+<block name="main-content">
+<div class="g-flow">
+  <div class="b-20"></div>
+  <div class="g-bd">
+    <div class="" id="m-msgbox">
+      <div class="m-msglist f-bg">
+        <div class="tabarea">
+		<a id="big-type-sys" class="f-fl f-pr tab tab-w tab-pos">
+		系统通知
+         
+          </a>
+          <div class="f-fr f-pr" id="auto-id-1450516114812">
+           
+		
+			<a href="">
+			</a> 
+		
+          </div>
+        </div>
+        <div class="tabcon">
+         
+          <div class="msgpool auto-1450516114652-parent">
+            <div class="m-basepool f-cb auto-1450516114652">
+              <div class="m-data-lists f-cb f-pr j-data-list" style="">
+                <div class="u-msgItem f-fs0 first">
+				  <foreach name="infos" item="info">
+                  <div class="j-msg-item msg-cnt msg-unread" id="auto-id-1450516114910">
+				
+                    <div class="f-cb msg-con" style="height:10px">
+					
+					
+                      <div class="msg-txt f-fl s-fc1"><span style="color:green">[{$info.title}] 　</span>{$info.content}
+					  
+					  </div>
+					
+					  
+                      <div class="msg-close f-pa" title="删除" id="auto-id-1450516114911" style="">
+					  </div>
+                      <div class="msg-mark msg-mark-hover f-pa" title="标记为已读" id="auto-id-1450516114909" style="display: none;">
+					  </div>
+                    </div>
+                    <div class="msg-time">{$info.time}</div>
+                     
+                  </div>
+				 <hr>
+				  </foreach>
+                </div>
+              </div>
+           </div>
+              </div>
+              <div class="ui-pager f-pr j-data-pager auto-1450516114651-parent" style="display: none;">
+                <div class="auto-1450516114651"><a href="http://study.163.com/message/msgList.htm#" class="zbtn zprv js-disabled" id="auto-id-1450516114839">上一页</a><a href="http://study.163.com/message/msgList.htm#" class="zpgi zpg1 js-selected" id="auto-id-1450516114845">1</a><a href="http://study.163.com/message/msgList.htm#" class="zpgi zpg2" id="auto-id-1450516114847" style="display: none;"></a><a href="http://study.163.com/message/msgList.htm#" class="zpgi zpg3" id="auto-id-1450516114849" style="display: none;"></a><a href="http://study.163.com/message/msgList.htm#" class="zpgi zpg4" id="auto-id-1450516114851" style="display: none;"></a><a href="http://study.163.com/message/msgList.htm#" class="zpgi zpg5" id="auto-id-1450516114853" style="display: none;"></a><a href="http://study.163.com/message/msgList.htm#" class="zpgi zpg6" id="auto-id-1450516114855" style="display: none;"></a><a href="http://study.163.com/message/msgList.htm#" class="zpgi zpg7" id="auto-id-1450516114857" style="display: none;"></a><a href="http://study.163.com/message/msgList.htm#" class="zpgi zpg8" id="auto-id-1450516114859" style="display: none;"></a><a href="http://study.163.com/message/msgList.htm#" class="zbtn znxt js-disabled" id="auto-id-1450516114841">下一页</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</block>

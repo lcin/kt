@@ -1,0 +1,341 @@
+<extend name="Public:layout_course"/>
+<block name="main-content">
+
+    <h1 style="color: red">您已经报名参加该课程！</h1>
+    <div class="b-15"></div>
+    <div class="g-cimn2 f-cb">
+        <div class="g-cimn2c f-cb">
+            <div id="j-livecourse-remind"> </div>
+            <div class="f-bg" id="j-course-briefintro">
+                <div class="u-gtit f-pa u-gtit1"></div>
+                <div class="m-cbi">
+                    <h2 class="u-ctit ctit1">简介</h2>
+                    <div class="cintrocon j-courseintro">{$video.des}</div>
+                </div>
+            </div>
+            <div class="b-15"></div>
+            <div class="f-cb f-bg f-pr" id="j-chapter-list" style="z-index:10;">
+                <div class="f-cb">
+                    <h2 class="u-ctit f-thide f-fl" id="j-chapter-title">目录</h2>
+                    <div class="u-cotinued f-fr" id="j-continued">连载</div>
+                </div>
+
+                <assign name="num" value="1"/>
+                <div class="m-chapterList f-pr">
+                    <foreach name="courses" item="course" >
+                        <div class="chapter">
+                            <div class="chapterhead">
+				<span class="f-fl f-thide chaptertitle">
+
+				</span>
+                                <span class="f-fl f-thide chaptername">
+
+				</span>
+                            </div>
+                            <div class="section" data-lesson="0" id="auto-id-1449466944990" >
+				<span class="f-fl f-thide ks">
+					课时{$num++}
+				</span>
+                                <span class="f-fl f-thide ksname" title="{$course.name}">
+			    <if condition="$_SESSION['id'] neq null">
+					<a href="{$course.url}">{$course.name}</a>
+					<else/>
+					<a href="__APP__/Login/index">{$course.name}</a>
+				 </if>
+
+				</span>
+                                <span class="f-fr">
+						<a class="f-fr ksjbtn j-hovershow">
+						课时预览
+					</span>
+                                <div class="f-fr ksjicon-look"></div>
+                                </a>
+                                <span class="f-fr ksinfo j-hoverhide">
+					<span class="f-fr f-thide kstime">
+							{$course.time}
+					</span>
+
+					<span class="f-fr ksinfoicon ksinfoicon-2" title="视频">
+
+					</span>
+				</span>
+                            </div>
+                        </div>
+                    </foreach>
+                </div>
+            </div>
+            <div id="j-recommend" style="display:none;">
+                <div class="b-15"></div>
+                <div class="f-cb f-bg f-pr recommedCourse" id="j-recommendCourse">
+                    <h2 class="u-ctit f-thide recommend">学习过该课程的人还学习过：</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="g-cisd2 f-fr">
+        <div class=" f-bg" id="j-course-lectors">
+            <div class="m-ti">
+                <div class="lectors j-lectors">
+                    <div class="jts j-jts" style="display: none;">
+                        <div class="f-fr tiicon jtsbtn jtsright j-nextlector"></div>
+                        <div class="f-fr tiicon jtsbtn-mr jtsbtn jtsleft j-prelector"></div>
+                    </div>
+                    <div class="j-lLink limg f-cb f-pr" id="auto-id-1449466944967" data-cid="cid0"><img height="75" width="75" class="j-limg" src="__PUBLIC__/Upload/{$teacher.photo}" id="auto-id-1449466944961"><span class="j-vipIcon u-orgVipIcon2 f-pa" title="认证机构" style="top: 64px; left: 64px;"></span></div>
+                    <img height="75" class="j-lLink" src="" style="display: none;">
+                    <p class="lname f-thide j-lname">{$teacher.tname}</p>
+                </div>
+                <div class="ltxt j-ltxt f-richEditorText edueditor_styleclass_0 edueditor_styleclass_1">{$teacher.description}</div>
+            </div>
+        </div>
+        <div id="j-repo-box" class="f-dn f-bg repoBox f-cb">
+            <h2 class="u-ctit">相关题库</h2>
+            <div id="j-repoList" class="repoList f-bdr"> </div>
+        </div>
+        <div id="j-contactWrap" class="f-dn">
+            <div class="b-15"></div>
+            <div class="f-cb f-bg">
+                <h2 class="u-ctit">服务咨询</h2>
+                <div id="j-contact-box" class="f-bdr"></div>
+            </div>
+        </div>
+        <div id="j-coureseclassWrap" class="f-dn">
+            <div class="b-15"></div>
+            <div class="f-cb f-bg">
+                <h2 class="u-ctit">所属系列课程</h2>
+                <div id="j-courseclass-box" class="f-bdr"></div>
+            </div>
+        </div>
+        <div class="b-15"></div>
+        <div class="f-cb f-bg">
+            <h2 class="u-ctit">评价</h2>
+            <div id="j-cmt-box" class="f-bdr">
+                <div class="">
+                    <div class="m-cmtop f-cb f-dn">
+                        <p class="txt f-fs0 s-fc5">给该课程打分：</p>
+                        <div class="rate j-solo"></div>
+                        <a class="edit f-dn j-solo" id="auto-id-1449466945301">编辑</a> </div>
+                    <div class="m-cmtinp f-dn">
+                        <div class="j-input f-pr"></div>
+                        <div class="b-10"></div>
+                        <div class="u-cmtsb f-cb j-btn">
+                            <div class="tips j-tips"></div>
+                            <a class="submit j-op" id="auto-id-1449466945299"><span>发表</span></a><a class="j-op f-fs0 cancel" id="auto-id-1449466945300">取消</a></div>
+                    </div>
+                    <div class="m-cmttxt"></div>
+                    <div class="u-asknull j-al-null" style="display:none">暂无评价</div>
+                    <div class="m-cmtcnt j-5cnt">
+                        <div class="u-cmt">
+                            <div class="wrp f-cb f-pr"> <img class="__PUBLIC__/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945307" src="__PUBLIC__/Home/imgs/185133E65A46A141721ED3C6DE720A81.jpg" data-cid="cid19">
+                                <div class="info">
+                                    <p class="presoninfo j-personinfo name" id="auto-id-1449466945312" data-cid="cid20"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945308">罗二花</span> </p>
+                                    <span class="time s-fc2 f-fs0 j-info">8:32</span>
+                                    <div class="rate j-rate">
+                                        <div class="u-rating">
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <span class="j-tip"></span></div>
+                                    </div>
+                                </div>
+                                <a class="f-pa reply s-fc3 j-replyBtn" id="auto-id-1449466945329" style="display: none;">回复</a> </div>
+                            <div class="cnt s-fc5 f-fs0 j-info">真棒</div>
+                            <div class="j-reply"></div>
+                        </div>
+                        <div class="u-cmt">
+                            <div class="wrp f-cb f-pr"> <img class="__PUBLIC__/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945332" src="__PUBLIC__/Home/imgs/6597173120751663718.jpg" data-cid="cid21">
+                                <div class="info">
+                                    <p class="presoninfo j-personinfo name" id="auto-id-1449466945337" data-cid="cid22"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945333">断弦</span> </p>
+                                    <span class="time s-fc2 f-fs0 j-info">12月6日</span>
+                                    <div class="rate j-rate">
+                                        <div class="u-rating">
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <span class="j-tip"></span></div>
+                                    </div>
+                                </div>
+                                <a class="f-pa reply s-fc3 j-replyBtn" id="auto-id-1449466945354" style="display: none;">回复</a> </div>
+                            <div class="cnt s-fc5 f-fs0 j-info">为什么没有链表？</div>
+                            <div class="j-reply"></div>
+                        </div>
+                        <div class="u-cmt">
+                            <div class="wrp f-cb f-pr"> <img class="__PUBLIC__/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945357" src="__PUBLIC__/Home/imgs/small.jpg" data-cid="cid23">
+                                <div class="info">
+                                    <p class="presoninfo j-personinfo name" id="auto-id-1449466945362" data-cid="cid24"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945358">czl908</span> </p>
+                                    <span class="time s-fc2 f-fs0 j-info">12月6日</span>
+                                    <div class="rate j-rate">
+                                        <div class="u-rating">
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star"></div>
+                                            <span class="j-tip"></span></div>
+                                    </div>
+                                </div>
+                                <a class="f-pa reply s-fc3 j-replyBtn" id="auto-id-1449466945379" style="display: none;">回复</a> </div>
+                            <div class="cnt s-fc5 f-fs0 j-info"></div>
+                            <div class="j-reply"></div>
+                        </div>
+                        <div class="u-cmt">
+                            <div class="wrp f-cb f-pr"> <img class="__PUBLIC__/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945382" src="__PUBLIC__/Home/imgs/small.jpg" data-cid="cid25">
+                                <div class="info">
+                                    <p class="presoninfo j-personinfo name" id="auto-id-1449466945387" data-cid="cid26"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945383">小田一号</span> </p>
+                                    <span class="time s-fc2 f-fs0 j-info">12月2日</span>
+                                    <div class="rate j-rate">
+                                        <div class="u-rating">
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <span class="j-tip"></span></div>
+                                    </div>
+                                </div>
+                                <a class="f-pa reply s-fc3 j-replyBtn" id="auto-id-1449466945404" style="display: none;">回复</a> </div>
+                            <div class="cnt s-fc5 f-fs0 j-info">不错不错</div>
+                            <div class="j-reply"></div>
+                        </div>
+                        <div class="u-cmt">
+                            <div class="wrp f-cb f-pr"> <img class="__PUBLIC__/Home/imgs/j-info f-cb" alt="" id="auto-id-1449466945407" src="__PUBLIC__/Home/imgs/small.jpg" data-cid="cid27">
+                                <div class="info">
+                                    <p class="presoninfo j-personinfo name" id="auto-id-1449466945412" data-cid="cid28"> <span class="name s-fc3 f-fs0 f-thide j-info" id="auto-id-1449466945408">m18353298863</span> </p>
+                                    <span class="time s-fc2 f-fs0 j-info">12月1日</span>
+                                    <div class="rate j-rate">
+                                        <div class="u-rating">
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <div class="star on"></div>
+                                            <span class="j-tip"></span></div>
+                                    </div>
+                                </div>
+                                <a class="f-pa reply s-fc3 j-replyBtn" id="auto-id-1449466945429" style="display: none;">回复</a> </div>
+                            <div class="cnt s-fc5 f-fs0 j-info"></div>
+                            <div class="j-reply"></div>
+                        </div>
+                    </div>
+                    <a class="m-ckgd j-op f-db" id="auto-id-1449466945302">查看更多</a> </div>
+            </div>
+        </div>
+        <div class="b-15"></div>
+        <div id="j-courseusers">
+            <div>
+                <div class="u-Pusers j-Pusers f-bg f-cb f-pr">
+                    <h3 class="f-cb"><em class="num j-num f-fl">80706</em><span class="nTask nCourse j-taskOrCourse f-fl"></span></h3>
+                    <div class="j-pics pics"><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1445145524999" id="auto-id-1449466945266">
+                        <div class="j-icon" id="auto-id-1449466945267" data-cid="cid1"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(2).png"><em class="f-thide">水天一线ykt1445145524997</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1444141959677" id="auto-id-1449466945268">
+                        <div class="j-icon" id="auto-id-1449466945269" data-cid="cid2"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(3).png"><em class="f-thide">LanceCHZ</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/liudaoran" id="auto-id-1449466945270">
+                        <div class="j-icon" id="auto-id-1449466945271" data-cid="cid3"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(4).png"><em class="f-thide">liu2011jianzhong</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1446899851070" id="auto-id-1449466945272">
+                        <div class="j-icon" id="auto-id-1449466945273" data-cid="cid4"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(5).png"><em class="f-thide">与我常在ykt1446899851067</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1441737505068" id="auto-id-1449466945274">
+                        <div class="j-icon" id="auto-id-1449466945275" data-cid="cid5"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(3).png"><em class="f-thide">a77494185</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1446729919164" id="auto-id-1449466945276">
+                        <div class="j-icon" id="auto-id-1449466945277" data-cid="cid6"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(6).png"><em class="f-thide">Mature&nbsp;men</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/1852565460" id="auto-id-1449466945278">
+                        <div class="j-icon" id="auto-id-1449466945279" data-cid="cid7"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(7).png"><em class="f-thide">默mooc26</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1441755659687" id="auto-id-1449466945280">
+                        <div class="j-icon" id="auto-id-1449466945281" data-cid="cid8"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(3).png"><em class="f-thide">admacc</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1449455148727" id="auto-id-1449466945282">
+                        <div class="j-icon" id="auto-id-1449466945283" data-cid="cid9"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(3).png"><em class="f-thide">菊花的胜利</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1449459799031" id="auto-id-1449466945284">
+                        <div class="j-icon" id="auto-id-1449466945285" data-cid="cid10"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(3).png"><em class="f-thide">MSNykt1449459799029</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/ykt1448435528332" id="auto-id-1449466945286">
+                        <div class="j-icon" id="auto-id-1449466945287" data-cid="cid11"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(3).png"><em class="f-thide">心雨难晴</em></div>
+                    </a><a class="uItem j-uItem f-fl f-pr" target="_blank" href="http://study.163.com/u/6564058523" id="auto-id-1449466945288">
+                        <div class="j-icon" id="auto-id-1449466945289" data-cid="cid12"><img class="j-img" src="__PUBLIC__/Home/imgs/saved_resource(8).png"><em class="f-thide">海寧hexLens</em></div>
+                    </a></div>
+                </div>
+                <div class="j-default userDefault f-bg" style="display: none;">
+                    <h4>没有人使用同样的计划</h4>
+                </div>
+            </div>
+        </div>
+        <div id="j-handpickasks">
+            <div>
+                <div class="b-15"></div>
+                <div class="m-handPickAsks f-cb f-bg">
+                    <h2 class="u-ctit">精选问答</h2>
+                    <div class="j-itemarea f-cb con">
+                        <div class="item f-cb ">
+                            <p><a class="link j-notelink" href="http://study.163.com/ask/askDetail/737073.htm" target="_blank">请问该课程使用的C语言编辑器是什么？Turbo? blond? or visual? C#</a></p>
+                            <p class="more f-cb"> <span class="f-fl f-thide dc"><span>答案(139)</span>|<span>投票(10)</span></span> <span class="f-fr f-thide from">来自:<a href="http://study.163.com/u/6541147438" class="j-user" id="auto-id-1449466945290" data-cid="cid13">gaopengedu1989</a></span> </p>
+                        </div>
+                        <div class="item f-cb ">
+                            <p><a class="link j-notelink" href="http://study.163.com/ask/askDetail/1084019.htm" target="_blank">练习去哪里下载？</a></p>
+                            <p class="more f-cb"> <span class="f-fl f-thide dc"><span>答案(2)</span>|<span>投票(8)</span></span> <span class="f-fr f-thide from">来自:<a href="http://study.163.com/u/4414725516" class="j-user" id="auto-id-1449466945291" data-cid="cid14">王小菲</a></span> </p>
+                        </div>
+                        <div class="item f-cb last">
+                            <p><a class="link j-notelink" href="http://study.163.com/ask/askDetail/869052.htm" target="_blank">晕，打那么快鬼看得清楚啊，点暂停都来不及！</a></p>
+                            <p class="more f-cb"> <span class="f-fl f-thide dc"><span>答案(2)</span>|<span>投票(7)</span></span> <span class="f-fr f-thide from">来自:<a href="http://study.163.com/u/2088105155" class="j-user" id="auto-id-1449466945292" data-cid="cid15">ufo88889</a></span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="j-handpicknotes">
+            <div>
+                <div class="b-15"></div>
+                <div class="m-handPickNotes f-cb f-bg">
+                    <h2 class="u-ctit">精选笔记</h2>
+                    <div class="j-itemarea f-cb con">
+                        <div class="item f-cb ">
+                            <p><a class="link j-notelink" href="http://study.163.com/note/noteDetail/1041029.htm" target="_blank">完整的C语言程序如下：
+                                1  #include
+                                <stdio.h> 2
+                                    3  int main(){
+                                    4       printf("C语言我来了");
+                                    5       return  0;
+                                    6   }</stdio.h>
+                            </a></p>
+                            <p class="more f-cb"> <span class="f-fl f-thide dc"><span>顶(13)</span>|<span>评论(0)</span></span> <span class="f-fr f-thide from">来自:<a href="http://study.163.com/u/1621618276" class="j-user" id="auto-id-1449466945293" data-cid="cid16">z805302194</a></span> </p>
+                        </div>
+                        <div class="item f-cb ">
+                            <p><a class="link j-notelink" href="http://study.163.com/note/noteDetail/877091.htm" target="_blank">int 数字
+                                char 字符
+                                float 小数
+
+                                int applenember=10;
+                                //一个叫做applenember的变量，初始化数据为10
+
+                                char cha='a';
+                                //字符使用的时候必须用单引号引起来
+
+                                float money=123.23
+                                //小数
+
+                                double r=1234.123456
+                                //精度比较高的小数
+
+                                printf("%d",applanumber); ...</a></p>
+                            <p class="more f-cb"> <span class="f-fl f-thide dc"><span>顶(13)</span>|<span>评论(0)</span></span> <span class="f-fr f-thide from">来自:<a href="http://study.163.com/u/wxzshelly" class="j-user" id="auto-id-1449466945294" data-cid="cid17">小暴</a></span> </p>
+                        </div>
+                        <div class="item f-cb last">
+                            <p><a class="link j-notelink" href="http://study.163.com/note/noteDetail/606432.htm" target="_blank">玩转C语言基础课堂
+
+                                课时14  打赌输赢机
+
+                                *生活中我们经常会打赌，赌你赢了怎么样我赢了怎么样。C语言中有一个跟这个非常类似的语句，叫做条件运算符，具体是这么写的：
+
+                                (表达式?值1:值2)
+
+                                其中的表达式就是赌注的内容，值1和值2就是赌赢的奖励。
+
+                                Y=(x==2?1...</a></p>
+                            <p class="more f-cb"> <span class="f-fl f-thide dc"><span>顶(7)</span>|<span>评论(0)</span></span> <span class="f-fr f-thide from">来自:<a href="" class="j-user" id="auto-id-1449466945295" data-cid="cid18">羽毛2013</a></span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</block>

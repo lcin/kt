@@ -1,0 +1,132 @@
+<extend name="Public:layout"/>
+<block name="main-content">
+
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="__APP__">后台主页</a>
+                </li>
+
+                <li>
+                    <a href="#">活动管理</a>
+                </li>
+                <li class="active">发布活动</li>
+            </ul><!-- .breadcrumb -->
+
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    活动管理
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                        发布活动
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <form class="form-horizontal" role="form" method="post" action="__ACTION__">
+
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-input-readonly">活动名称</label>
+                            <div class="col-sm-9">
+                                <input  type="text"  name="activityname" class="col-xs-10 col-sm-5" id="form-input-readonly" placeholder="活动名称" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动介绍</label>
+                            <div class="col-sm-9">
+                                <input type="text" id="form-field-2" name="introduce" placeholder="活动介绍" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动报名时间</label>
+                            <div class="col-sm-9">
+                                <input type="text" id="form-field-2" name="applytime" placeholder="活动报名时间" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动截止报名时间</label>
+                            <div class="col-sm-9">
+                                <input type="text"  name="closetime"id="form-field-2" placeholder="活动截止报名时间" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动开始时间</label>
+                            <div class="col-sm-9">
+                                <input type="text"id="form-field-2" name="begintime" placeholder="活动开始时间" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动结束时间</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="overtime"id="form-field-2" placeholder="活动结束时间" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动每人经费</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="money" id="form-field-2" placeholder="活动每人经费" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动地址</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="place" id="form-field-2" placeholder="活动地址" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动联系电话</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="phone" id="form-field-2" placeholder="活动联系电话" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动所需物品</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="wuping" id="form-field-2" placeholder="活动所需物品" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动人数</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="people" id="form-field-2" placeholder="活动人数" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2">活动备注</label>
+                            <div class="col-sm-9">
+                                <input type="text" name="remark" id="form-field-2" placeholder="活动备注" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+
+
+                        <input type="hidden"name="adminid"value="{$_SESSION.admin.id}"/>
+
+                        <div class="clearfix form-actions">
+                            <div class="col-md-offset-3 col-md-9">
+                                <input class="btn btn-info" type="submit" name="sub" value="确认发布"/>
+
+                            </div>
+                        </div>
+
+                    </form>
+                    <!-- PAGE CONTENT ENDS -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+
+</block>

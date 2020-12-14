@@ -1,0 +1,79 @@
+<extend name="Public:layout" />
+<block name="main-content">
+
+
+<link href="__PUBLIC__/Home/css/coredes.css" type="text/css" rel="stylesheet">
+<link href="__PUBLIC__/Home/css/teacherdes.css" type="text/css" rel="stylesheet">
+
+
+<div id="g-container">
+ <div class="m-maintainInfo" style="display:none">
+    <div id="maintain_info_box" class="g-flow"></div>
+  </div>
+  <div id="advertisement_box" class="advertisement_box f-pf" style="display:none;"></div>
+  <div id="g-body">
+    <div class="g-doc">
+      <div class="b-40"></div>
+      <div class="m-tetop f-cb">
+        <div class="g-sd1"> <img class="" id="" src="__PUBLIC__/Upload/{$teacher.photo}" width="150" height="150" alt="陈振宇"> </div>
+        <div class="g-mn1">
+          <div class="g-mn1c right">
+            <div class="b-40"></div>
+            <h2>{$teacher.tname}</h2>
+            <p class="f-f0 f-fc6">{$teacher.organ}</p>
+          </div>
+        </div>
+      </div>
+      <div class="b-40"></div>
+      <div class="g-doc f-cb">
+        <div class="g-mn2">
+          <div class="g-mn2c f-bg">
+            <div class="m-cnt">
+              <div class="top f-f0">老师简介</div>
+              <div class="cnt f-richEditorText">
+                <p style="">{$teacher.description}</p>
+                <p>主页：http://software.nju.edu.cn/zychen/</p>
+                <p>微博：http://weibo.com/njuzychen/</p>
+                <p><br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="g-sd2" id="j-cnt">
+          <div>
+            <div class="g-cell1 u-card j-href" data-href="/course/NJU-1000112002">
+              <div class="card">
+                <div class="u-img f-pr"> <img class="img" src="__PUBLIC__/Home/imgs/index(3).jpg" width="223px" height="125px" alt="开发者测试"> </div>
+                <div class="f-pa over f-fcf"><span class="f-icon clock"></span><span class="txt">5/9 周</span></div>
+                <p class="f-f0 t1">开发者测试</p>
+                <p class="t2 f-thide"> <a class="t21 f-fc6" href="#" target="_blank">南京大学</a> </p>
+              </div>
+            </div>
+            <div class="g-cell1 u-card j-href" data-href="/course/NJU-1000122000">
+              <div class="card">
+                <div class="u-img f-pr"> <img class="img" src="__PUBLIC__/Home/imgs/index(11).png" width="223px" height="125px" alt="软件测试"> </div>
+                <div class="f-pa over f-fcf"><span class="f-icon clock"></span><span class="txt">7/114 周</span></div>
+                <p class="f-f0 t1">软件测试</p>
+                <p class="t2 f-thide"> <a class="t21 f-fc6" href="#" target="_blank">南京大学</a> </p>
+              </div>
+            </div>
+            <div class="g-cell1 u-card j-href" data-href="/course/NJU-1000031001">
+              <div class="card">
+                <div class="u-img f-pr"> <img class="img" src="__PUBLIC__/Home/imgs/index(22).jpg" width="223px" height="125px" alt="概率论与数理统计"> </div>
+                <p class="f-f0 t1">概率论与数理统计</p>
+                <p class="t2 f-thide"> <a class="t21 f-fc6" href="#" target="_blank">南京大学</a> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+<script>
+	document.getElementById("j-teacherInfo").innerHTML =  "<p>从事软件分析和测试的研究。主讲《软件测试》与《统计与经验方法》本科课程。担任国际学术期刊JSS和SPE客座编辑，国际学术会议QSIC&nbsp;2013,&nbsp;AST&nbsp;2013和IWPD&nbsp;2012的程序委员会主席，ICSE(SEIP)等国际学术会议程序委员会委员，IEEE&nbsp;TSE、TR、TSC和《中国科学》等国内外权威学术期刊审稿人。已经在包括ACM&nbsp;TOSEM等国内外重要学术会议和期刊发表论文70多篇，申请专利20余项（已授权13项），部分专利成果已转化，研究成果获2012年度江苏省科学技术奖一等奖。</p><p>主页：http://software.nju.edu.cn/zychen/</p><p>微博：http://weibo.com/njuzychen/</p><p><br/></p>";                      
+	window.staffId = "4955757";
+	window.isPreview = "0";
+</script>
+</block>

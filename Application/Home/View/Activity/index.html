@@ -1,0 +1,47 @@
+<extend name="Public:layout" />
+
+<block name="main-content">
+
+    <div class="g-flow f-cb">
+        <h1>活动列表：</h1>
+        <div id="GG">
+            <div class="g-mn2" style="float:left">
+                <div class="g-mn2c">
+                    <div id="j-courseNode" class="lists auto-1449466894196-parent">
+
+                        <div class="m-basepool f-cb auto-1449466894196">
+                            <div id ="hh"class="m-data-lists f-cb f-pr j-data-list"style="width:100%">
+                                <form action="get">
+                                <foreach name="datas" item="datas">
+                                    <div style="margin-top: 50px" class="u-cover u-find-cover first" id="auto-id-1449466894429" style="margin-left:14px">
+                                        <div   class="wrap f-cb">
+                                                <div  class="img">
+                                                    <div class="tit">
+                                                        <h3 class="f-thide">{$datas.activityname}</h3>
+                                                    </div>
+                                                    <div class="orgName f-fs0 f-thide">{$datas.introduce}</div>
+                                                    <div class="thumb">
+                                                        <div  style="height:20px;background:white;margin-top:10px;">
+                                                                <span class="normal f-fs0" style="color:#FE4000;font-size:12px"><b>¥{$datas.money}</b></span>
+                                                        </div>
+                                                    </div>
+                                                    <a href="__APP__/Activity/xiangqing/activityid/{$datas.activityid}">查看详情</a>
+                                                </div>
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                </foreach>
+                                        <td>{$page}</td>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+    </div>
+</block>
+

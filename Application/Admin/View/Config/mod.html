@@ -1,0 +1,126 @@
+<extend name="Public:layout"/>
+<block name="main-content">
+
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="#">后台主页</a>
+							</li>
+
+							<li>
+								<a href="#">网站配置</a>
+							</li>
+							<li class="active">修改配置信息</li>
+						</ul><!-- .breadcrumb -->
+
+					</div>
+
+					<div class="page-content">
+						<div class="page-header">
+							<h1>
+								网站配置
+								<small>
+									<i class="icon-double-angle-right"></i>
+									修改配置信息
+								</small>
+							</h1>
+						</div><!-- /.page-header -->
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<form class="form-horizontal" role="form" method="post" action="__ACTION__" enctype="multipart/form-data">
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 网站标题： </label>
+
+										<div class="col-sm-9">
+											<input  type="text"  name="title" value="" class="col-xs-10 col-sm-5" id="form-input-readonly" placeholder="请输入网站标题" />
+											
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-2">网站关键字： </label>
+
+										<div class="col-sm-9">
+											<input  type="text"  name="keywords" value="" class="col-xs-10 col-sm-5" id="form-input-readonly" placeholder="请输入关键字" />
+											
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 网站描述：</label>
+
+										<div class="col-sm-9">
+											<input  type="text"  name="description" value="" class="col-xs-10 col-sm-5" id="form-input-readonly" placeholder="请输入网站描述" />
+											<input  type="hidden"  name="id" value="{$configs.id}" class="col-xs-10 col-sm-5"  />
+											
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 网站版权： </label>
+
+										<div class="col-sm-9">
+											<input  type="text"  name="copyright" value="" class="col-xs-10 col-sm-5" id="form-input-readonly" placeholder="请输入网站版权" />
+											
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 网站LOGO： </label>
+
+										<div class="col-sm-9">
+										
+											<input  type="file"  name="logo" value="" class="col-xs-10 col-sm-5" id="form-input-readonly" placeholder="" />
+											
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+									
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 网站状态： </label>
+
+										<div class="col-sm-9">
+											<input type="radio" name="status" selected="selected" value="1" <if condition="$config.status eq 1">checked</if> />开启
+											<input type="radio" name="status" value="0" <if condition = "$config.status eq 0">checked</if> />关闭
+											
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+									
+									
+									
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<input class="btn btn-info" type="submit" name="sub" value="确认修改"/>
+												
+										</div>
+									</div>
+
+									<div class="hr hr-24"></div>
+
+										
+								</form>
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+			</form>
+</block>

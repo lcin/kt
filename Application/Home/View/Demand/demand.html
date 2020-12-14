@@ -1,0 +1,27 @@
+<extend name="Public:layout" />
+<block name="main-content">
+    <div style="width: 100%;display: flex;justify-content: right">
+
+        <div style="width: 950px;height:500px;border: 1px solid #1a1a1a;
+        background: url('__PUBLIC__/Home/imgs/index(12).jpg')no-repeat center top;background-size: 950px 500px;">
+            <div style="width:950px;display: block">
+                <h1 style="text-align: center;line-height: 100px;color: black;">提出您的需求，我们将为您做出最专业的答复</h1>
+
+            </div>
+        </div>
+        <div style="width: 400px;height: 500px;background-color:#ffffff">
+            <form action="__CONTROLLER__/tab" method="post" >
+                <textarea style="width: 350px;" type="text" name="content" value="" placeholder="有什么可以帮助到您？" cols="25" rows="6" ></textarea>
+                <input  type="text" name="name" value="" placeholder="请输入您的真实姓名" >
+                <input  type="text" name="address" value="" placeholder="请输入您所在的公司">
+                <input  name="tell" value="" placeholder="请留下您的联系方式">
+                <button  type="submit" value="" name="sub">提交信息</button>
+            </form>
+        </div>
+    </div><hr>
+    <div>
+        <h2 style="color: #1a5098;line-height: 50px">需求模板：</h2>
+
+        <p style="color: black">1:我们企业需要.......</p>
+    </div>
+</block>

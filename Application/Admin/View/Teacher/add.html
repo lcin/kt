@@ -1,0 +1,100 @@
+<extend name="Public:layout"/>
+<block name="main-content">
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="__APP__">后台主页</a>
+                </li>
+
+                <li>
+                    <a href="#">讲师管理</a>
+                </li>
+                <li class="active">添加讲师</li>
+            </ul><!-- .breadcrumb -->
+
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    讲师管理
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                    添加讲师
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+
+                    <form class="form-horizontal" action='__CONTROLLER__/add'  enctype="multipart/form-data" method='post' >
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" id="username" name="username" for="form-field-1"> 讲师名称 </label>
+
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="请输入讲师名称" class="col-xs-10 col-sm-5"  name="tname" />
+                                
+                            </div>
+                            
+                        </div>
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" name="url" for="form-field-2"> 讲师头像</label>
+
+                            <div class="col-sm-9">
+                                <input type="file" name='photo'   class="col-xs-10 col-sm-5" />
+                                
+                            </div>
+                        </div>
+						
+						 <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" name="url" for="form-field-2"> 讲师机构</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" name='organ'   class="col-xs-10 col-sm-5" />
+                                
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" name="url" for="form-field-2"> 讲师简介</label>
+
+                            <div class="col-sm-9">
+                                <textarea  type="text"  name="description" placeholder="请输入讲师描述信息" class="col-xs-10 col-sm-5" style="width:325px;height:150px">
+                                </textarea>
+                            </div>
+                        </div>
+                       
+
+                        <div class="space-4"></div>
+
+                        <div class="clearfix form-actions">
+                            <div class="col-md-offset-3 col-md-9">
+                               <input type='submit' name='sub' class="btn btn-info" value='添加'/>
+                              
+                               <!--<a href='__CONTROLLER__/index' class="btn btn-info" type="submit" name='sub'>
+                                    
+                                </a>
+
+                                &nbsp; &nbsp; &nbsp;
+                                <a href='#' class="btn" type="reset" name='sub'>
+                                    <i class="icon-undo bigger-110"></i>
+                                    Reset
+                                </a>-->
+                            </div>
+                        </div>
+                    </form>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div>
+</block>

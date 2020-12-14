@@ -1,0 +1,2802 @@
+@charset "UTF-8";
+.notesprite, .m-tb-notes .notenav .navItem.current, .m-noteitem .togBtn, .m-noteitem .noedit .noteinfo .noteopt a, .m-noteitem .noedit .notepriv, .m-noteitem .oper .notedig, .m-noteitem .oper .notecol, .m-noteitem .oper .notesh, .m-noteitem .oper .notecmt, .w-cardnoteitem .youdao, .m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .notenav .navItem.current {
+	background: url(../res/images/note.png?5b8156472a22e5f652a31cff1c6075cf) no-repeat 4449px 4449px;
+}
+.uisprite, .u-courseHead a.cmEdit, .u-rating .star, .m-payCourses .courseItem .courseItemup p .learnNum, .detialHd .sharebtn, .detialHd .storebtn, .detialHd .cancelstorebtn, .detialHd .icons a.pdEdit, ul.tabarea li .new, .m-addNoteUI .toolbar .anchordel, .m-mynotesToolbar .nav .navItem, .m-mynotesToolbar .nav .navItem1, .u-coursePlanPayMsg .courseLearnCount {
+	background: url(../res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 4449px 4449px;
+}
+.buttonsprite, .m-toPayDialog .btns .okbtn, .m-toPayDialog .btns .okbtn span, .m-toPayDialog .btns .okbtn.sbtn, .m-toPayDialog .btns .okbtn.sbtn span, .m-toPayDialog .btns .closebtn, .m-toPayDialog .btns .closebtn span, .m-toPayDialog .btns .cancelbtn, .m-toPayDialog .btns .cancelbtn span, .m-toPayDialog .btns .cancelbtn.sbtn, .m-toPayDialog .btns .cancelbtn.sbtn span, .m-edititem .editopt a.editbtn, .m-edititem .editopt a.editbtn span, .m-tb-notes .mask .joincourse, .m-tb-notes .mask .joincourse span, .u-coursePlanPayMsg .cancelBtn, .u-coursePlanPayMsg .cancelBtn span {
+	background: url(../res/images/btn/button.png?8da8e506b44a05ffa0554aceba35eec0) no-repeat 4449px 4449px;
+}
+.tasksprite, .detialHd .icons a.pdDel, .detialHd .icons .copybtn {
+	background: url(../res/images/plan/task_sprite.png?b5169c8ef8b04fbae176ebf14dd2d157) no-repeat 4449px 4449px;
+}
+.joinsprite, .detialHd .usebtn {
+	background: url(../res/images/btn/joinBtn.png?d208c0f6997c273605dba2dbe02b38dd) no-repeat 4449px 4449px;
+}
+.detailsprite, .detialHd .pdInfo .pdInfoup .pmTitle .sy {
+	background: url(../res/images/plan/detail_sprite.png?d29efb8737770fe29f9a1f6d6e1b2fa2) no-repeat 4449px 4449px;
+}
+.shareSprite, .u-shareUI .info, .u-courseHead a.cmDel {
+	background: url(../res/images/ui/courseHdUI.png?ce72e358c48a9a7213711c483d8b1eae) no-repeat -9999px -9999px;
+}
+.m-cbi {
+	padding: 20px;
+	color: #444;
+	text-align: left;
+}
+.m-cbi .targetuser {
+	background: #e2f8e2;
+	font-family: '微软雅黑';
+	padding: 8px 26px;
+	text-align: left;
+	line-height: 1.4;
+}
+.m-cbi .ctit1 {
+	margin: 20px 0 0 -15px;
+}
+.m-cbi .noborder {
+	border-left: 0;
+	margin-left: -15px;
+}
+.m-cbi .cintrocon {
+	line-height: 23px;
+	font-family: '微软雅黑';
+}
+.m-ti {
+	width: 265px;
+	font-size: 12px;
+	text-align: center;
+}
+.m-ti .tiicon {
+	background: url(../res/images/ui/lector_jt.png?cfabd952cdfd97c2d6ed977ebfc2eb41) 9999px 9999px no-repeat;
+}
+.m-ti .lectors {
+	padding: 14px 20px 14px 20px;
+}
+.m-ti .jts {
+	height: 11px;
+	margin: 5px 5px 10px 0;
+}
+.m-ti .jtsbtn {
+	width: 8px;
+	height: 11px;
+	cursor: pointer;
+}
+.m-ti .jtsbtn-mr {
+	margin-right: 10px;
+}
+.m-ti .jtsleft-no {
+	background-position: 0 0;
+}
+.m-ti .jtsright-no {
+	background-position: -30px 0;
+}
+.m-ti .jtsleft {
+	background-position: 0 -30px;
+}
+.m-ti .jtsright {
+	background-position: -30px -30px;
+}
+.m-ti .limg {
+	margin: 0 75px;
+	height: 75px;
+}
+.m-ti .lname {
+	line-height: 20px;
+}
+.m-ti .f-hover {
+	cursor: pointer;
+}
+.m-ti .ltxt {
+	text-align: left;
+	padding: 15px 20px;
+	width: 225px;
+	line-height: 20px;
+	border-top: 1px solid #ddd;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.m-ti .vipIcon {
+	background: url(../res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat -25px -1528px;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 61px;
+	left: 137px;
+}
+.u-shareUI {
+	height: 30px;
+	position: relative;
+}
+.u-shareUI .share, .u-shareUI .toStore, .u-shareUI .canselStore {
+	float: right;
+	height: 25px;
+	width: 45px;
+	line-height: 28px;
+	background: url(../res/images/ui/courseTitle.png?5501c4d9a253d722c181f0aba4cf08b4) no-repeat 4449px 4449px;
+	border: 1px solid;
+	border-color: #e1e1e1 #e1e1e1 #c6c6c6;
+	background-color: transparent;
+	font-size: 12px;
+	color: #333;
+}
+.u-shareUI .info {
+	float: right;
+	height: 25px;
+	line-height: 28px;
+	padding: 0px 6px 0px 26px;
+	border: 1px solid;
+	border-color: #e1e1e1 #e1e1e1 #c6c6c6;
+	background-color: #f4f4f4;
+	border-radius: 2px;
+	font-size: 12px;
+	color: #333;
+}
+.u-shareUI .info {
+	background-position: 10px -81px;
+}
+.u-shareUI .info:hover {
+	background-position: -76px -81px;
+}
+.u-shareUI .share {
+	background-position: -4px -60px;
+}
+.u-shareUI .share:hover {
+	color: #10ae58;
+	background-position: -4px -5px;
+}
+.u-shareUI .toStore {
+	background-position: -51px -4px;
+}
+.u-shareUI .toStore:hover {
+	color: #10ae58;
+	background-position: -51px -59px;
+}
+.u-shareUI .canselStore {
+	color: #10ae58;
+	background-position: -51px -59px;
+}
+.u-shareUI .box {
+	padding: 8px 10px;
+	position: absolute;
+	bottom: -30px;
+	right: 26px;
+	width: 100px;
+}
+.m-QRCodeDialog {
+	width: 290px;
+}
+.m-QRCodeDialog div.zbar {
+	height: 10px;
+}
+.m-QRCodeDialog div.zcnt {
+	height: 125px;
+	padding: 0 20px 10px;
+}
+.m-QRCodeDialog .tip {
+	margin: 20px 0 0 10px;
+	text-align: center;
+	line-height: 25px;
+	color: #666666;
+	font-size: 12px;
+}
+.u-breadnav {
+	position: relative;
+	z-index: 100;
+	height: 44px;
+	background: url(../res/images/bg/plan_nav_bg.png?0ca55fdb800a4a52246024b0d95a2747) repeat-x;
+}
+.u-breadnav .nav {
+	height: 40px;
+	font-size: 13px;
+	line-height: 40px;
+	color: #666;
+	width: 960px;
+	margin: 0 auto;
+}
+.u-breadnav a {
+	color: #333;
+}
+.u-breadnav a:hover {
+	color: #10ae58;
+	text-decoration: underline;
+}
+.u-breadnav .dv {
+	background: url(../res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 4449px 4449px;
+	width: 8px;
+	height: 16px;
+	margin: 0 5px 0 7px;
+	vertical-align: middle;
+	background-position: 0 -1338px;
+}
+.u-breadnav span {
+	cursor: default;
+	color: #666;
+}
+.u-moocbtn {
+	display: inline-block;
+	padding: 4px 9px;
+	font-size: 14px;
+	line-height: 28px;
+	color: #666;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	min-width: 80px;
+	font-family: "Arial", "Hiragino Sans GB", "Microsoft YaHei", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+	border: 1px solid #999;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #E1E1E1;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
+	background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
+	background-image: -webkit-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -o-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: linear-gradient(#EBEBEB, #E1E1E1);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.u-moocbtn:hover, .u-moocbtn.hvr {
+	background-color: #EDEDED;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
+	background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
+	background-image: -webkit-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -o-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: linear-gradient(#F6F6F6, #EDEDED);
+}
+.u-moocbtn-sm {
+	padding: 5px 6px;
+	font-size: 12px;
+	line-height: 14px;
+	min-width: 50px;
+}
+.paysprite, .m-toPayDialog .treatyFb, .m-payCourses .toOpen, .m-payCourses .openBox .warning {
+	background: url(../res/images/pay/payIcons.png?edfb0ebe9e96f67408b27a9a90a3f515) no-repeat 4449px 4449px;
+}
+.m-toPayDialog {
+	width: 406px;
+	height: 180px;
+	margin: 0 20px 0 20px;
+}
+.m-toPayDialog .info {
+	color: #333;
+	font-size: 14px;
+	line-height: 23px;
+	margin: 0 0 50px;
+	font-family: '微软雅黑';
+}
+.m-toPayDialog .info.center {
+	text-align: center;
+}
+.m-toPayDialog .info span {
+	color: #d62727;
+}
+.m-toPayDialog .btns {
+	height: 35px;
+	text-align: center;
+	margin-top: 5px;
+}
+.m-toPayDialog .btns .okbtn {
+	display: block;
+	width: 130px;
+	width: 130px;
+	text-decoration: none;
+	background-position: 120px -300px;
+	display: inline-block;
+	padding: 0;
+	margin-right: 12px;
+	font-size: 15px;
+}
+.m-toPayDialog .btns .okbtn span {
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	width: 110px;
+	font-size: 14px;
+	height: 44px;
+	line-height: 42px;
+	color: #fff;
+	background-position: -40px -300px;
+}
+.m-toPayDialog .btns .okbtn:hover {
+	background-position: 120px -350px;
+}
+.m-toPayDialog .btns .okbtn:hover span {
+	background-position: -40px -350px;
+}
+.m-toPayDialog .btns .okbtn:active {
+	background-position: 120px -400px;
+}
+.m-toPayDialog .btns .okbtn:active span {
+	background-position: -40px -400px;
+}
+.m-toPayDialog .btns .okbtn.sbtn {
+	display: block;
+	width: 80px;
+	width: 80px;
+	text-decoration: none;
+	background-position: 70px -300px;
+}
+.m-toPayDialog .btns .okbtn.sbtn span {
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	width: 60px;
+	font-size: 14px;
+	height: 44px;
+	line-height: 42px;
+	color: #fff;
+	background-position: -40px -300px;
+}
+.m-toPayDialog .btns .okbtn.sbtn:hover {
+	background-position: 70px -350px;
+}
+.m-toPayDialog .btns .okbtn.sbtn:hover span {
+	background-position: -40px -350px;
+}
+.m-toPayDialog .btns .okbtn.sbtn:active {
+	background-position: 70px -400px;
+}
+.m-toPayDialog .btns .okbtn.sbtn:active span {
+	background-position: -40px -400px;
+}
+.m-toPayDialog .btns .closebtn {
+	display: block;
+	width: 80px;
+	width: 80px;
+	text-decoration: none;
+	background-position: 70px -300px;
+	display: inline-block;
+	padding: 0;
+	margin-right: 12px;
+	font-size: 16px;
+}
+.m-toPayDialog .btns .closebtn span {
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	width: 60px;
+	font-size: 14px;
+	height: 44px;
+	line-height: 42px;
+	color: #fff;
+	background-position: -40px -300px;
+}
+.m-toPayDialog .btns .closebtn:hover {
+	background-position: 70px -350px;
+}
+.m-toPayDialog .btns .closebtn:hover span {
+	background-position: -40px -350px;
+}
+.m-toPayDialog .btns .closebtn:active {
+	background-position: 70px -400px;
+}
+.m-toPayDialog .btns .closebtn:active span {
+	background-position: -40px -400px;
+}
+.m-toPayDialog .btns .cancelbtn {
+	display: block;
+	width: 130px;
+	width: 130px;
+	text-decoration: none;
+	background-position: 120px -450px;
+	display: inline-block;
+	padding: 0;
+	margin-right: 10px;
+	font-size: 15px;
+}
+.m-toPayDialog .btns .cancelbtn span {
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	width: 110px;
+	font-size: 14px;
+	height: 44px;
+	line-height: 42px;
+	color: #444;
+	background-position: -40px -450px;
+}
+.m-toPayDialog .btns .cancelbtn:hover {
+	background-position: 120px -500px;
+}
+.m-toPayDialog .btns .cancelbtn:hover span {
+	background-position: -40px -500px;
+}
+.m-toPayDialog .btns .cancelbtn:active {
+	background-position: 120px -550px;
+}
+.m-toPayDialog .btns .cancelbtn:active span {
+	background-position: -40px -550px;
+}
+.m-toPayDialog .btns .cancelbtn.sbtn {
+	display: block;
+	width: 80px;
+	width: 80px;
+	text-decoration: none;
+	background-position: 70px -450px;
+}
+.m-toPayDialog .btns .cancelbtn.sbtn span {
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	width: 60px;
+	font-size: 14px;
+	height: 44px;
+	line-height: 42px;
+	color: #444;
+	background-position: -40px -450px;
+}
+.m-toPayDialog .btns .cancelbtn.sbtn:hover {
+	background-position: 70px -500px;
+}
+.m-toPayDialog .btns .cancelbtn.sbtn:hover span {
+	background-position: -40px -500px;
+}
+.m-toPayDialog .btns .cancelbtn.sbtn:active {
+	background-position: 70px -550px;
+}
+.m-toPayDialog .btns .cancelbtn.sbtn:active span {
+	background-position: -40px -550px;
+}
+.m-toPayDialog .treaty {
+	margin: 8px 0 0;
+}
+.m-toPayDialog .treaty label {
+	margin: 0 0 0 5px;
+	font-size: 12px;
+	line-height: 21px;
+	color: #666;
+}
+.m-toPayDialog .treaty a {
+	color: #10ae58;
+	font-size: 12px;
+}
+.m-toPayDialog .treaty a:hover {
+	text-decoration: underline;
+}
+.m-toPayDialog .treatyFb {
+	height: 17px;
+	background-position: 1px -9px;
+	padding: 0 0 0 22px;
+	color: #d31818;
+	font-size: 12px;
+}
+.m-toPayDialog .privilege {
+	margin: 12px 0 8px;
+	color: #333;
+	font-size: 12px;
+}
+.m-toPayDialog .privilege label {
+	margin: 0 0 0 5px;
+}
+.m-toPayDialog .privilege label span {
+	color: #ff9400;
+	font-size: 12px;
+	padding: 0 0 0 20px;
+}
+.m-toPayDialog .privilege .keyArea {
+	margin: 6px 10px 0 0;
+	border-bottom: 1px solid #eaeaea;
+	padding: 0 0 10px;
+}
+.m-toPayDialog .privilege .keyArea .keyInput {
+	width: 147px;
+}
+.m-toPayDialog .privilege .keyArea .keyInput .inputtxt {
+	overflow-y: hidden;
+}
+.m-toPayDialog .privilege .keyArea .keyFb {
+	width: 455px;
+}
+.m-toPayDialog .privilege .keyArea .keyFb .warningbox .warntxt {
+	color: #C33;
+}
+.m-toPayDialog .privilege .keyArea .keyFb.rightFb .warningbox .righttxt {
+	color: #21a557;
+}
+.m-toPayDialog .privilege .keyArea .keyFb.rightFb .warningbox .righttxt em {
+	font-size: 14px;
+	color: #ff7e00;
+}
+.m-treaty-dialog.m-basewin div.cmtpl {
+	height: 380px;
+	overflow-y: scroll;
+}
+.u-window-hasborder {
+	border: 1px solid #babecb !important;
+}
+.u-coursetitle {
+	line-height: 19px;
+	color: #666;
+	font-size: 12px;
+	text-align: left;
+	width: 100%;
+}
+.u-coursetitle h2 {
+	font-size: 24px;
+	line-height: 1.2;
+	break: break-all;
+	word-wrap: break-word;
+}
+.u-coursetitle h2 a {
+	color: #000;
+}
+.u-coursetitle h2 a:hover {
+	color: #10ae58;
+}
+.u-coursetitle .margin-top-15 {
+	margin-top: 15px;
+}
+.u-coursetitle a {
+	color: #666;
+}
+.u-coursetitle .hot {
+	background: url(../res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 4449px 4449px;
+	float: left;
+	padding: 0 6px 0 20px;
+	color: #999;
+	background-position: -55px -350px !important;
+	font-size: 12px;
+	margin-right: 20px;
+}
+.u-coursetitle .cat {
+	color: #666;
+	margin-top: 8px;
+	margin-left: 35px;
+	overflow: hidden;
+	width: 240px;
+	height: 18px;
+	display: block;
+	float: right;
+}
+.u-coursetitle .cat a {
+	color: #666 !important;
+}
+.u-coursetitle .cat a:hover {
+	color: #10ae58 !important;
+}
+.u-coursetitle .margin-t-5 {
+	margin-top: 5px;
+}
+.u-coursetitle .teacher {
+	width: 240px;
+	height: 18px;
+	overflow: hidden;
+	padding-left: 10px;
+}
+.u-coursetitle .lzMark {
+	width: 49px;
+	height: 14px;
+	vertical-align: middle;
+	background: #919191;
+	padding: 3px;
+	font-size: 12px;
+	color: #fff;
+}
+.u-coursetitle p a {
+	color: #10ae58;
+}
+.u-coursetitle p a:hover {
+	text-decoration: underline;
+}
+.u-coursetitle .cmt {
+	float: left;
+	color: #999;
+}
+.u-coursetitle .starall {
+	float: left;
+	height: 20px;
+}
+.u-coursetitle .u-rating span {
+	font-size: 14px;
+	line-height: 16px;
+}
+.u-courseHead .ov {
+	height: 250px;
+	padding: 20px 0 20px 20px;
+}
+.u-courseHead .ov .left {
+	width: 450px;
+	height: 250px;
+	margin-right: -450px;
+}
+.u-courseHead .ov .left img {
+	-webkit-box-shadow: 0px 0px 3px #aaa;
+	-moz-box-shadow: 0px 0px 3px #aaa;
+	-ms-box-shadow: 0px 0px 3px #aaa;
+	box-shadow: 0px 0px 3px #aaa;
+}
+.u-courseHead .ov .cliBtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../res/images/btn/previewBtn.png?a3eea89e8b6baf1cab1a3448650ef102) no-repeat 115px 85px;
+}
+.u-courseHead .ov .cliBtn:hover {
+	background-position: 115px -239px;
+}
+.u-courseHead .ov .right {
+	height: 250px;
+	margin-left: 470px;
+}
+.u-courseHead .ov .right .ctarea {
+	width: 345px;
+}
+.u-courseHead .ov .right .ctarea h2 {
+	width: 265px;
+}
+.u-courseHead .btnarea {
+	top: 185px;
+}
+.u-courseHead .btnarea2 {
+	top: 175px;
+}
+.u-courseHead .btnarea .add-pack {
+	font-size: 14px;
+	color: #0a9a3d;
+	margin-left: 20px;
+	background: url(../res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat -25px -227px;
+	padding-left: 25px;
+}
+.u-courseHead .learnbtn {
+	background: #ff8000;
+	color: white;
+	font-size: 20px;
+	line-height: 45px;
+	width: 160px;
+	height: 45px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+.u-courseHead .learnbtn:hover {
+	background: #ee6600;
+}
+.u-courseHead .limit {
+	font-size: 12px;
+	padding-bottom: 5px;
+	height: 15px;
+}
+.u-courseHead .skbtn .fen {
+	width: 100px;
+	height: 44px;
+	background-color: #FFE000;
+	font-size: 20px;
+	color: #FF2200;
+	text-align: center;
+	line-height: 44px;
+}
+.u-courseHead .skbtn .btn {
+	cursor: pointer;
+	width: 160px;
+	height: 44px;
+	background-color: #FE2600;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 44px;
+}
+.u-courseHead .skbtn .btn2 {
+	background-color: #ccc;
+}
+.u-courseHead .pover {
+	margin: 20px 0 0 10px;
+}
+.u-courseHead .tikTime {
+	font-size: 18px;
+	color: #383FE0;
+	margin-bottom: 10px;
+	height: 21px;
+}
+.u-courseHead .tip {
+	top: 108px;
+	right: 20px;
+	font-size: 13px;
+	display: none;
+	width: 192px;
+	height: 50px;
+	color: #333;
+	padding: 7px 15px;
+	line-height: 1.6;
+	background: url(../res/images/btn/joinCourseBtn.png?24c5088cc4463299fc15d41a0c46c030) 0 -312px no-repeat;
+}
+.u-courseHead .courseMark {
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 71px;
+	height: 71px;
+}
+.u-courseHead .djMark {
+	background: url(../res/images/ui/courseMark_sprite.png?1b8af89368a8b2fd984b82a05216b60c) 0 0 no-repeat;
+	z-index: 11;
+}
+.u-courseHead .sfMark {
+	background: url(../res/images/ui/courseMark_sprite.png?1b8af89368a8b2fd984b82a05216b60c) -76px 0 no-repeat;
+	z-index: 11;
+}
+.u-courseHead .hyMark {
+	background: url(../res/images/ui/courseMark_sprite.png?1b8af89368a8b2fd984b82a05216b60c) -154px 0 no-repeat;
+}
+.u-courseHead a.cmEdit {
+	display: block;
+	background-position: 0 -1212px;
+	width: 34px;
+	height: 30px;
+}
+.u-courseHead a.cmDel {
+	height: 25px;
+	line-height: 28px;
+	padding: 0px 6px 0px 26px;
+	border: 1px solid;
+	border-color: #e1e1e1 #e1e1e1 #c6c6c6;
+	border-radius: 2px;
+	background-position: 10px -138px;
+	background-color: #f4f4f4;
+}
+.u-courseHead a.cmDel:hover {
+	background-position: -76px -138px;
+}
+.u-courseHead .promoteInfo {
+	color: #fff;
+	background: #FF0000;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 12px;
+	padding: 0 10px;
+	margin-right: 10px;
+}
+.u-courseHead .promoteInfo:hover {
+	text-decoration: underline;
+}
+.u-courseHead .discountArea {
+	top: 95px;
+	height: 80px;
+	width: 100%;
+}
+.u-courseHead .discountArea .margin-b-15 {
+	margin-bottom: 15px;
+	vertical-align: middle;
+}
+.u-courseHead .discountArea .price {
+	color: #ff3c00;
+	font-size: 30px;
+	font-family: '微软雅黑';
+	line-height: 30px;
+}
+.u-courseHead .discountArea .old-price {
+	color: #999;
+	font-size: 22px;
+	font-family: '微软雅黑';
+	line-height: 30px;
+	text-decoration: line-through;
+	margin-left: 10px;
+	vertical-align: top;
+}
+.u-courseHead .discountArea .time-left {
+	display: inline-block;
+	margin-left: 10px;
+	background-color: white;
+	position: relative;
+	border: 1px solid #ff8001;
+	padding: 2px 5px;
+	color: #ff4000;
+	vertical-align: top;
+	margin-top: 2px;
+}
+.u-courseHead .discountArea .time-left:after, .u-courseHead .discountArea .time-left:before {
+	border: solid transparent;
+	content: ' ';
+	height: 0;
+	right: 100%;
+	position: absolute;
+	width: 0;
+}
+.u-courseHead .discountArea .time-left:after {
+	border-width: 5px;
+	border-right-color: white;
+	top: 7px;
+	left: -8px;
+}
+.u-courseHead .discountArea .time-left:before {
+	border-width: 6px;
+	border-right-color: #ff8001;
+	top: 6px;
+}
+.u-courseHead .discountArea .discnt {
+	font-family: "simsun";
+	font-size: 12px;
+	line-height: 20px;
+	color: #0a9a3d;
+	background-color: #F8F8F8;
+	padding: 3px 5px;
+}
+.u-courseHead .discountArea .icn {
+	padding: 2px;
+	margin-right: 5px;
+	color: #fff;
+	background: #ff3c00;
+}
+.u-courseHead .discountArea .discnt-ticket {
+	color: #0a9a3d;
+}
+.u-courseHead .discountArea .limit {
+	color: #666666;
+	font-size: 12px;
+}
+.u-courseHead .discountArea .discnt-ticket:hover {
+	text-decoration: underline;
+}
+.u-courseHead .discountArea .discnt-zuhe {
+	color: #0a9a3d;
+	cursor: pointer;
+}
+.u-courseHead .discountArea .discnt-line {
+	padding-left: 10px;
+	border-left: 1px solid #999;
+	margin-left: 10px;
+}
+.u-courseHead ul.tabarea {
+	background-color: #fafafa;
+	padding-left: 8px;
+	border-top: 1px solid #eaeaea;
+	height: 36px;
+}
+.u-courseHead li {
+	width: 73px;
+	height: 36px;
+	font-family: '微软雅黑';
+}
+.u-courseHead li a {
+	display: block;
+	line-height: 36px;
+	text-align: center;
+}
+.u-courseHead li a.selected {
+	color: #ffffff;
+	background: url(../res/images/bg/coursedetailtabbg.png?2e10b15149452ac2a40b8476e0583660) no-repeat center center;
+}
+.u-courseHead .package {
+	margin: 10px 0 0px -30px;
+	cursor: pointer;
+}
+.u-courseHead .package .icn {
+	padding: 2px 3px;
+	margin-right: 7px;
+	font-size: 13px;
+	background: #ff9300;
+}
+.g-ie-body .u-courseHead .ov .right .ctarea {
+	width: 470px;
+}
+@media screen and (min-width: 1210px) {
+.u-courseHead .ov .right .ctarea {
+	width: 470px;
+}
+.u-courseHead .ov .right .ctarea h2 {
+	width: 100%;
+}
+}
+.u-shareUI {
+	height: 30px;
+	position: relative;
+}
+.u-shareUI .share, .u-shareUI .toStore, .u-shareUI .canselStore {
+	float: right;
+	height: 25px;
+	width: 45px;
+	line-height: 28px;
+	background: url(../res/images/ui/courseTitle.png?5501c4d9a253d722c181f0aba4cf08b4) no-repeat 4449px 4449px;
+	border: 1px solid;
+	border-color: #e1e1e1 #e1e1e1 #c6c6c6;
+	background-color: transparent;
+	font-size: 12px;
+	color: #333;
+}
+.u-shareUI .info {
+	float: right;
+	height: 25px;
+	line-height: 28px;
+	padding: 0px 6px 0px 26px;
+	border: 1px solid;
+	border-color: #e1e1e1 #e1e1e1 #c6c6c6;
+	background-color: #f4f4f4;
+	border-radius: 2px;
+	font-size: 12px;
+	color: #333;
+}
+.u-shareUI .info {
+	background-position: 10px -81px;
+}
+.u-shareUI .info:hover {
+	background-position: -76px -81px;
+}
+.u-shareUI .share {
+	background-position: -4px -60px;
+}
+.u-shareUI .share:hover {
+	color: #10ae58;
+	background-position: -4px -5px;
+}
+.u-shareUI .toStore {
+	background-position: -51px -4px;
+}
+.u-shareUI .toStore:hover {
+	color: #10ae58;
+	background-position: -51px -59px;
+}
+.u-shareUI .canselStore {
+	color: #10ae58;
+	background-position: -51px -59px;
+}
+.u-shareUI .box {
+	padding: 8px 10px;
+	position: absolute;
+	bottom: -30px;
+	right: 26px;
+	width: 100px;
+}
+.m-QRCodeDialog {
+	width: 290px;
+}
+.m-QRCodeDialog div.zbar {
+	height: 10px;
+}
+.m-QRCodeDialog div.zcnt {
+	height: 125px;
+	padding: 0 20px 10px;
+}
+.m-QRCodeDialog .tip {
+	margin: 20px 0 0 10px;
+	text-align: center;
+	line-height: 25px;
+	color: #666666;
+	font-size: 12px;
+}
+.u-rating .star {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-top: 2px;
+	background-position: -48px -200px;
+}
+.u-rating .half {
+	background-position: -24px -200px;
+}
+.u-rating .on {
+	background-position: 0px -200px;
+}
+.u-rating span {
+	color: #10ae58;
+	vertical-align: text-top;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.paysprite, .m-toPayDialog .treatyFb, .m-payCourses .toOpen, .m-payCourses .openBox .warning {
+	background: url(../res/images/pay/payIcons.png?edfb0ebe9e96f67408b27a9a90a3f515) no-repeat 4449px 4449px;
+}
+.paybtns, .m-payCourses .obBtm .buyBtn {
+	background: url(../res/images/pay/payBtns.png?c9b6b849b38cca45b160a96802575ac8) no-repeat 4449px 4449px;
+}
+.m-payCourses {
+	background-color: #fff;
+	border-top: 1px solid #eaeaea;
+}
+.m-payCourses .closeBox {
+	padding: 15px 20px;
+}
+.m-payCourses .closeBox p {
+	color: #666;
+	font-family: '微软雅黑';
+}
+.m-payCourses .toOpen {
+	background-position: 51px -140px;
+	right: 20px;
+	top: 18px;
+	padding: 0 20px 0 0;
+	font-size: 12px;
+	color: #21a557;
+	z-index: 100;
+}
+.m-payCourses .toOpen:hover {
+	color: #21a557;
+	text-decoration: underline;
+}
+.m-payCourses .toOpen.close {
+	background-position: 26px -125px;
+}
+.m-payCourses .openBox {
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	z-index: 10;
+}
+.m-payCourses .openBox h3 {
+	color: #666666;
+	padding: 15px;
+}
+.m-payCourses .openBox .tip {
+	color: #999;
+	font-size: 12px;
+	margin: 9px 0 0;
+}
+.m-payCourses .openBox .obBtm {
+	height: 35px;
+	padding: 15px 20px;
+	border-top: 1px solid #f5f5f5;
+	background-color: #f8f8f8;
+}
+.m-payCourses .obBtm .buyBtn {
+	display: block;
+	width: 83px;
+	height: 42px;
+	background-position: -13px -18px;
+	margin-left: 9px;
+}
+.m-payCourses .obBtm .buyBtn:hover {
+	background-position: -105px -18px;
+}
+.m-payCourses .obBtm .buyBtn:active {
+	background-position: -213px -18px;
+}
+.m-payCourses .openBox .info {
+	color: #666;
+	font-family: '微软雅黑';
+	font-size: 15px;
+	margin: 8px 0 0 8px;
+}
+.m-payCourses .openBox .info span {
+	color: #ff7c00;
+	font-family: '微软雅黑';
+	font-size: 18px;
+	padding: 3px 0 0;
+}
+.m-payCourses .openBox .warning {
+	height: 17px;
+	background-position: 1px -9px;
+	padding: 0 0 0 22px;
+	color: #d31818;
+	font-size: 12px;
+	margin: 13px 0 0;
+}
+.m-payCourses .coursesBox {
+	padding: 0 20px;
+}
+.m-payCourses .courseItem {
+	margin: 0 50px 20px 0;
+}
+.m-payCourses .courseItem.ie {
+	margin: 0 18px 20px 0;
+}
+@media screen and (min-width: 1210px) {
+.m-payCourses .courseItem {
+	margin: 0 17px 20px 0;
+}
+}
+.m-payCourses .courseItem .courseItemup {
+	width: 356px;
+	height: 68px;
+	padding: 6px;
+	border: 1px solid #eeeeee;
+	cursor: pointer;
+}
+.m-payCourses .courseItem .courseItemup h4 {
+	color: #444444;
+	font-family: '微软雅黑';
+	font-size: 16px;
+	width: 225px;
+	font-weight: bold;
+	height: 27px;
+}
+.m-payCourses .courseItem .courseItemup img {
+	width: 120px;
+	height: 68px;
+	float: left;
+	margin-right: 10px;
+}
+.m-payCourses .courseItem .courseItemup p {
+	color: #999;
+	font-size: 12px;
+	height: 24px;
+}
+.m-payCourses .courseItem .courseItemup p .learnNum {
+	padding-left: 13px;
+	background-position: -60px -352px;
+}
+.m-payCourses .courseItem .courseItemup .creator {
+	width: 144px;
+}
+.m-payCourses .courseItem .courseItemdw {
+	height: 20px;
+	padding: 5px 0;
+	color: #999;
+	font-size: 12px;
+}
+.m-payCourses .courseItem .courseItemdw a {
+	color: #10ae58;
+	font-size: 13px;
+}
+.m-payCourses .courseItem .courseItemdw a:hover {
+	text-decoration: underline;
+}
+.m-payCourses .courseItem .icon {
+	top: -2px;
+	right: -1px;
+	background: url(../res/images/sns/snsSprite.png?71fce9d4f9d5f4e2b5b897821ce302af) no-repeat -1px -152px;
+	display: block;
+	width: 23px;
+	height: 24px;
+}
+.m-payCourses .courseItem.selected .icon {
+	background-position: -32px -152px;
+}
+.m-payCourses .courseItem p.price {
+	cursor: pointer;
+	color: #ff7e00;
+	font-family: '微软雅黑';
+	font-size: 16px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.m-payCourses .courseItem p.price .d {
+	font-size: 12px;
+	color: #666;
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+.m-payCourses .courseItem .bought {
+	cursor: pointer;
+	color: #21a557;
+	font-size: 14px;
+}
+.detialHd .pdInfoP .stars {
+	height: 20px;
+}
+.detialHd .pdInfoP .stararea {
+	width: 80px;
+	height: 20px;
+}
+.detialHd .pdInfoP .pls {
+	line-height: 20px;
+	font-size: 13px;
+	color: #999;
+}
+.detialHd .sharebtn {
+	display: block;
+	width: 35px;
+	height: 30px;
+	z-index: 989;
+	background-position: 0 -390px;
+	margin-left: -1px;
+}
+.detialHd .box {
+	padding: 8px 10px;
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	width: 100px;
+}
+.detialHd .storebtn {
+	background-position: 0 -1140px;
+	display: block;
+	width: 34px;
+	height: 30px;
+}
+.detialHd .cancelstorebtn {
+	background-position: -36px -1140px;
+	display: block;
+	width: 34px;
+	height: 30px;
+}
+.detialHd {
+	padding: 20px;
+	background-color: #fff;
+}
+.detialHd .pdInfoP {
+	height: 132px;
+}
+.detialHd .pdInfoP a {
+	color: #10ae58;
+}
+.detialHd .pdInfoP a:hover {
+	color: #10ae58;
+	text-decoration: underline;
+}
+.detialHd .pdInfo {
+	height: 120px;
+	font-size: 12px;
+}
+.detialHd .pdInfo p {
+	line-height: 19px;
+	color: #999;
+	overflow: hidden;
+}
+.detialHd .pdInfo p em {
+	font-weight: lighter;
+}
+.detialHd .pdInfo .pdInfoup .pmTitle {
+	height: 26px;
+	line-height: 21px;
+}
+.detialHd .pdInfo .pdInfoup .pmTitle .title {
+	max-width: 470px;
+	font-family: '微软雅黑';
+	color: #000;
+	font-size: 20px;
+	height: 25px;
+}
+.detialHd .pdInfo .pdInfoup .pmTitle .sy {
+	background-position: -24px -392px;
+	height: 18px;
+	margin: 3px 0 0 7px;
+	width: 15px;
+}
+.detialHd .pdInfo .oldPlanTime {
+	color: #999;
+	font-weight: lighter;
+	padding: 0 0 0 15px;
+}
+.detialHd .pdInfo .category {
+	color: #10ae58;
+}
+.detialHd .pdInfo .category:hover {
+	color: #10ae58;
+	text-decoration: underline;
+}
+.detialHd .pdDescription {
+	font-size: 12px;
+	color: #999;
+	border-top: 1px solid #eaeaea;
+	padding: 5px 0 0;
+	line-height: 21px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.detialHd .icons {
+	right: 0;
+	top: 0;
+	width: 137px;
+	height: 33px;
+}
+.detialHd .icons a.pdEdit, .detialHd .icons a.pdDel {
+	display: block;
+	width: 34px;
+	height: 30px;
+}
+.detialHd .icons a.pdEdit {
+	background-position: 0 -1212px;
+	margin-left: -1px;
+}
+.detialHd .icons a.pdDel {
+	background-position: 0 -54px;
+}
+.detialHd .icons .copybtn {
+	background-position: -138px -339px;
+	width: 62px;
+	height: 30px;
+}
+.detialHd .icons .copybtn:hover {
+	background-position: -138px -370px;
+}
+.m-dialog .ic3 {
+	background-position: 7px 0;
+}
+.m-dialog .icon {
+	padding: 0 10px;
+}
+ul.tabarea {
+	background-color: #fafafa;
+	padding-left: 8px;
+	border-top: 1px solid #eaeaea;
+	height: 36px;
+}
+ul.tabarea li {
+	width: 73px;
+	height: 36px;
+	font-family: '微软雅黑';
+}
+ul.tabarea li a {
+	display: block;
+	line-height: 36px;
+	text-align: center;
+}
+ul.tabarea li a.selected {
+	color: #ffffff;
+	background: url(../res/images/bg/coursedetailtabbg.png?2e10b15149452ac2a40b8476e0583660) no-repeat center center;
+}
+ul.tabarea li .new {
+	background-position: 0 -1504px;
+	display: block;
+	width: 33px;
+	height: 20px;
+	top: -10px;
+	right: -3px;
+}
+.detialHd .usebtn {
+	top: 80px;
+	right: -8px;
+	display: block;
+	width: 157px;
+	height: 65px;
+	background-position: 0 0;
+	text-align: center;
+	line-height: 55px;
+	font-family: '微软雅黑';
+	font-size: 18px;
+	color: #fff;
+}
+.detialHd .usebtn em {
+	font-family: "宋体";
+	font-size: 14px;
+	position: absolute;
+	top: 25px;
+	left: 64px;
+}
+.detialHd .usebtn:hover {
+	background-position: 0 -74px;
+}
+.detialHd .usebtn:active {
+	background-position: 0 -150px;
+}
+.u-coursetitle {
+	line-height: 19px;
+	color: #666;
+	font-size: 12px;
+	text-align: left;
+	width: 100%;
+}
+.u-coursetitle h2 {
+	font-size: 24px;
+	line-height: 1.2;
+	break: break-all;
+	word-wrap: break-word;
+}
+.u-coursetitle h2 a {
+	color: #000;
+}
+.u-coursetitle h2 a:hover {
+	color: #10ae58;
+}
+.u-coursetitle .margin-top-15 {
+	margin-top: 15px;
+}
+.u-coursetitle a {
+	color: #666;
+}
+.u-coursetitle .hot {
+	background: url(../res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 4449px 4449px;
+	float: left;
+	padding: 0 6px 0 20px;
+	color: #999;
+	background-position: -55px -350px !important;
+	font-size: 12px;
+	margin-right: 20px;
+}
+.u-coursetitle .cat {
+	color: #666;
+	margin-top: 8px;
+	margin-left: 35px;
+	overflow: hidden;
+	width: 240px;
+	height: 18px;
+	display: block;
+	float: right;
+}
+.u-coursetitle .cat a {
+	color: #666 !important;
+}
+.u-coursetitle .cat a:hover {
+	color: #10ae58 !important;
+}
+.u-coursetitle .margin-t-5 {
+	margin-top: 5px;
+}
+.u-coursetitle .teacher {
+	width: 240px;
+	height: 18px;
+	overflow: hidden;
+	padding-left: 10px;
+}
+.u-coursetitle .lzMark {
+	width: 49px;
+	height: 14px;
+	vertical-align: middle;
+	background: #919191;
+	padding: 3px;
+	font-size: 12px;
+	color: #fff;
+}
+.u-coursetitle p a {
+	color: #10ae58;
+}
+.u-coursetitle p a:hover {
+	text-decoration: underline;
+}
+.u-coursetitle .cmt {
+	float: left;
+	color: #999;
+}
+.u-coursetitle .starall {
+	float: left;
+	height: 20px;
+}
+.u-coursetitle .u-rating span {
+	font-size: 14px;
+	line-height: 16px;
+}
+.u-rating .star {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-top: 2px;
+	background-position: -48px -200px;
+}
+.u-rating .half {
+	background-position: -24px -200px;
+}
+.u-rating .on {
+	background-position: 0px -200px;
+}
+.u-rating span {
+	color: #10ae58;
+	vertical-align: text-top;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.u-moocbtn {
+	display: inline-block;
+	padding: 4px 9px;
+	font-size: 14px;
+	line-height: 28px;
+	color: #666;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	min-width: 80px;
+	font-family: "Arial", "Hiragino Sans GB", "Microsoft YaHei", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+	border: 1px solid #999;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #E1E1E1;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
+	background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
+	background-image: -webkit-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -o-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: linear-gradient(#EBEBEB, #E1E1E1);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.u-moocbtn:hover, .u-moocbtn.hvr {
+	background-color: #EDEDED;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
+	background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
+	background-image: -webkit-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -o-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: linear-gradient(#F6F6F6, #EDEDED);
+}
+.u-moocbtn-sm {
+	padding: 5px 6px;
+	font-size: 12px;
+	line-height: 14px;
+	min-width: 50px;
+}
+.u-moocbtn {
+	display: inline-block;
+	padding: 4px 9px;
+	font-size: 14px;
+	line-height: 28px;
+	color: #666;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	min-width: 80px;
+	font-family: "Arial", "Hiragino Sans GB", "Microsoft YaHei", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+	border: 1px solid #999;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #E1E1E1;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
+	background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
+	background-image: -webkit-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -o-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: linear-gradient(#EBEBEB, #E1E1E1);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.u-moocbtn:hover, .u-moocbtn.hvr {
+	background-color: #EDEDED;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
+	background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
+	background-image: -webkit-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -o-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: linear-gradient(#F6F6F6, #EDEDED);
+}
+.u-moocbtn-sm {
+	padding: 5px 6px;
+	font-size: 12px;
+	line-height: 14px;
+	min-width: 50px;
+}
+.m-edititem {
+	width: 100%;
+}
+.m-edititem .editwrap {
+	background: none repeat scroll 0 0 #FAFAFA;
+	border: 1px solid #DFDFDF;
+	-webkit-box-shadow: inset 1px 1px 2px #DFDFDF;
+	-moz-box-shadow: inset 1px 1px 2px #DFDFDF;
+	box-shadow: inset 1px 1px 2px #DFDFDF;
+	padding: 5px;
+	height: 65px;
+	position: relative;
+}
+.m-edititem .editwrap .edittxt {
+	font-size: 12px;
+	line-height: 16px;
+	height: 65px;
+	width: 100%;
+	background: transparent;
+	border: none;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.m-edititem .editwrap .hint {
+	font-size: 12px;
+	color: #999;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.m-edititem .editopt {
+	padding-top: 8px;
+}
+.m-edititem .editopt a {
+	float: right;
+}
+.m-edititem .editopt a.editbtn {
+	font-weight: bold;
+	display: block;
+	width: 60px;
+	width: 60px;
+	text-decoration: none;
+	background-position: 50px 0px;
+}
+.m-edititem .editopt a.editbtn span {
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	width: 40px;
+	font-size: 12px;
+	height: 34px;
+	line-height: 33px;
+	color: #fff;
+	background-position: -40px 0px;
+}
+.m-edititem .editopt a.editbtn:hover {
+	background-position: 50px -50px;
+}
+.m-edititem .editopt a.editbtn:hover span {
+	background-position: -40px -50px;
+}
+.m-edititem .editopt a.editbtn:active {
+	background-position: 50px -100px;
+}
+.m-edititem .editopt a.editbtn:active span {
+	background-position: -40px -100px;
+}
+.m-edititem .editopt a.editbtn:hover {
+	text-decoration: none;
+}
+.m-edititem .editopt a.cancelbtn {
+	line-height: 30px;
+	margin-right: 15px;
+	color: #42423d;
+	font-size: 12px;
+}
+.m-edititem .editopt a.cancelbtn:hover {
+	color: #10ae58;
+}
+.m-edititem {
+	width: 100%;
+}
+.m-edititem .editwrap {
+	background: none repeat scroll 0 0 #FAFAFA;
+	border: 1px solid #DFDFDF;
+	-webkit-box-shadow: inset 1px 1px 2px #DFDFDF;
+	-moz-box-shadow: inset 1px 1px 2px #DFDFDF;
+	box-shadow: inset 1px 1px 2px #DFDFDF;
+	padding: 5px;
+	height: 65px;
+	position: relative;
+}
+.m-edititem .editwrap .edittxt {
+	font-size: 12px;
+	line-height: 16px;
+	height: 65px;
+	width: 100%;
+	background: transparent;
+	border: none;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.m-edititem .editwrap .hint {
+	font-size: 12px;
+	color: #999;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.m-edititem .editopt {
+	padding-top: 8px;
+}
+.m-edititem .editopt a {
+	float: right;
+}
+.m-edititem .editopt a.editbtn {
+	font-weight: bold;
+	display: block;
+	width: 60px;
+	width: 60px;
+	text-decoration: none;
+	background-position: 50px 0px;
+}
+.m-edititem .editopt a.editbtn span {
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	width: 40px;
+	font-size: 12px;
+	height: 34px;
+	line-height: 33px;
+	color: #fff;
+	background-position: -40px 0px;
+}
+.m-edititem .editopt a.editbtn:hover {
+	background-position: 50px -50px;
+}
+.m-edititem .editopt a.editbtn:hover span {
+	background-position: -40px -50px;
+}
+.m-edititem .editopt a.editbtn:active {
+	background-position: 50px -100px;
+}
+.m-edititem .editopt a.editbtn:active span {
+	background-position: -40px -100px;
+}
+.m-edititem .editopt a.editbtn:hover {
+	text-decoration: none;
+}
+.m-edititem .editopt a.cancelbtn {
+	line-height: 30px;
+	margin-right: 15px;
+	color: #42423d;
+	font-size: 12px;
+}
+.m-edititem .editopt a.cancelbtn:hover {
+	color: #10ae58;
+}
+.m-comment-wrapper a {
+	color: #999;
+	font-size: 12px;
+}
+.m-comment-wrapper a:hover {
+	color: #10ae58;
+	text-decoration: underline;
+}
+.m-comment-wrapper .ui-pager a.zpgi {
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	color: #444;
+}
+.m-comment-wrapper .ui-pager a.zpgi:hover {
+	background: #10ae58;
+	color: #fff;
+	text-decoration: none;
+}
+.m-comment-wrapper .ui-pager a.js-selected, .m-comment-wrapper .ui-pager a.js-selected:hover {
+	font-weight: bolder;
+	color: #10ae58;
+	background: none;
+	cursor: default;
+}
+.m-comment-wrapper .ui-pager a.js-disabled {
+	background-color: #e4e4e4;
+}
+.m-comment {
+	padding: 10px 10px 15px 10px;
+	border-bottom: dotted 1px #dcdcdd;
+}
+.m-comment .comment-photo {
+	width: 28px;
+	height: 28px;
+	cursor: pointer;
+	margin-right: -28px;
+}
+.m-comment .comment-content {
+	margin-left: 38px;
+	font-size: 12px;
+}
+.m-comment .comment-content .comment-opt {
+	line-height: 15px;
+}
+.m-comment .comment-content .comment-opt .comment-info {
+	margin-right: 5px;
+}
+.m-comment .comment-content .comment-opt .comment-info .comment-name {
+	color: #10ae58;
+	cursor: pointer;
+}
+.m-comment .comment-content .comment-opt .comment-info .comment-name:hover {
+	text-decoration: underline;
+}
+.m-comment .comment-content .comment-opt .comment-info .vipIcon {
+	background: url(../res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 0px -1528px;
+	width: 16px;
+	height: 14px;
+}
+.m-comment .comment-content .comment-opt .comment-info .comment-time {
+	color: #999;
+}
+.m-comment .comment-content .comment-opt .comment-delete, .m-comment .comment-content .comment-opt .comment-report {
+	margin-left: 10px;
+	display: block;
+}
+.m-comment .comment-content .comment-desc {
+	color: #999;
+	line-height: 18px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+.m-comment-wrapper .m-comment-pool {
+	z-index: 99;
+	position: relative;
+}
+.m-comment-wrapper .m-data-lists {
+	border: solid 1px #d5d5d5;
+	text-align: left;
+}
+.m-comment-wrapper .m-data-lists .last {
+	border-bottom: none;
+}
+.m-comment-wrapper .u-comment {
+	font-size: 12px;
+	margin-left: 20px;
+	width: 70px;
+}
+.m-comment-wrapper .toggle {
+	margin-top: 10px;
+}
+.m-comment-wrapper .triangle {
+	z-index: 100;
+	display: block;
+	width: 10px;
+	height: 7px;
+	position: absolute;
+	top: -5px;
+	left: 45px;
+	background-position: 0 -200px;
+}
+.ques-bar .m-comment-wrapper .triangle {
+	left: 85px;
+}
+.u-alcl .alcl {
+	width: 100%;
+	overflow: hidden;
+}
+.u-alcl .tog {
+	font-size: 12px;
+	color: #999;
+}
+.u-selitm {
+	display: block;
+	cursor: pointer;
+	border-radius: 2px;
+	border: 1px solid #e7e7e7;
+	background: #f5f5f5;
+	padding: 0 6px;
+	margin: 0 12px 7px 0;
+	display: block;
+	float: left;
+	color: #666;
+	font-size: 12px;
+	white-space: nowrap;
+	height: 21px;
+	line-height: 21px;
+}
+.u-selitm.act {
+	background-color: #21a557;
+	border-color: #21a557;
+	color: #fff;
+}
+.m-tb-notes {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	zoom: 1;
+}
+.m-tb-notes .mask {
+	background: url(../res/images/opticity.png?23fd15a929185ee5f26944fb8c9fc0d4) repeat;
+	position: absolute;
+	top: 31px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 995;
+}
+.m-tb-notes .mask .nocnt {
+	position: absolute;
+	top: 30%;
+	color: #fff;
+	font-size: 12px;
+	font-family: '微软雅黑';
+	line-height: 18px;
+	width: 320px;
+}
+.m-tb-notes .mask .enrolltipstxt {
+	width: 154px;
+	text-align: left;
+	margin-left: 40px;
+}
+.m-tb-notes .mask .joincourse {
+	margin: 3px 20px 0 10px;
+	display: block;
+	width: 80px;
+	width: 80px;
+	text-decoration: none;
+	background-position: 70px 0px;
+}
+.m-tb-notes .mask .joincourse span {
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	width: 60px;
+	font-size: 12px;
+	height: 34px;
+	line-height: 33px;
+	color: #fff;
+	background-position: -40px 0px;
+}
+.m-tb-notes .mask .joincourse:hover {
+	background-position: 70px -50px;
+}
+.m-tb-notes .mask .joincourse:hover span {
+	background-position: -40px -50px;
+}
+.m-tb-notes .mask .joincourse:active {
+	background-position: 70px -100px;
+}
+.m-tb-notes .mask .joincourse:active span {
+	background-position: -40px -100px;
+}
+.m-tb-notes .notenav {
+	position: relative;
+	height: 30px;
+	z-index: 99;
+	border-bottom: 1px solid #a4a4a5;
+	text-align: center;
+}
+.m-tb-notes .notenav .navItem {
+	position: absolute;
+	display: block;
+	font-size: 14px;
+	height: 30px;
+	width: 70px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	color: #999;
+	cursor: pointer;
+	bottom: -1px;
+	left: 50px;
+}
+.m-tb-notes .notenav .navItem.current {
+	color: #333;
+	cursor: default;
+	background-position: -72px -226px;
+}
+.m-tb-notes .notenav .navItem.currentDisable {
+	background-position: -96px -10px;
+}
+.m-tb-notes .notenav .navItem.navItem1 {
+	left: 185px;
+}
+.m-tb-notes .addTabBox {
+	position: relative;
+	z-index: 100;
+}
+.m-tb-notes .addTabBox .addbox {
+	padding: 10px;
+	width: 300px;
+	position: relative;
+	z-index: 100;
+}
+.m-tb-notes .addTabBox .split {
+	height: 10px;
+	margin: 0 10px;
+	border-top: 1px solid #ddd;
+}
+.m-tb-notes .empty {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.m-tb-notes .empty .u-empty {
+	font-size: 16px;
+	margin: 30px 30px 0 30px;
+}
+.m-tb-notes .empty .info {
+	margin: 0 15px;
+	padding: 15px 20px;
+	background-color: #fefdf4;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #999;
+	line-height: 22px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+.m-tb-notes .empty .info .title {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+}
+.m-tb-notes .notesbox {
+	position: absolute;
+	top: 180px;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.m-tb-notes .notesbox.noedit {
+	top: 40px;
+}
+.m-tb-notes .notesbox .notespool {
+	padding: 0 10px 0 10px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+}
+.m-tb-notes .notesbox .allbox {
+	position: absolute;
+	bottom: -35px;
+	left: 15px;
+	right: 15px;
+	width: 290px;
+	height: 36px;
+}
+.m-tb-notes .notesbox .allbox .all {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 36px;
+	color: #444;
+	font-size: 12px;
+	background: #e0deca;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+.m-tb-notes .notesbox .allbox .all:hover {
+	background-color: #ceccb5;
+	text-decoration: underline;
+}
+.m-tb-notes .m-addNoteUI .m-edititem .editopt .cancelbtn {
+	margin-right: 5px;
+}
+.m-addNoteUI {
+	position: relative;
+}
+.m-addNoteUI .toolbar {
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	color: #999;
+	font-size: 12px;
+}
+.m-addNoteUI .toolbar .checklabel {
+	cursor: pointer;
+	margin-right: 5px;
+*margin-right: 0px;
+	text-indent: 0px;
+	text-align: left;
+	line-height: 16px;
+}
+.m-addNoteUI .toolbar .checklabel:hover {
+	color: #10ae58;
+}
+.m-addNoteUI .toolbar .anchor {
+	cursor: default;
+	display: block;
+}
+.m-addNoteUI .toolbar .anchordel {
+	margin-top: 3px;
+	cursor: pointer;
+	width: 12px;
+	height: 12px;
+	background-position: -9px -11px;
+}
+.m-addNoteUI .feedback {
+	position: absolute;
+	top: 105px;
+	left: -10px;
+}
+.m-noteitem {
+	border-bottom: 1px dotted #d5d3c6;
+	font-family: 宋体 arial;
+}
+.m-noteitem .vipIcon {
+	background: url(../res/images/ui/ui_sprite.png?1367c4a3031b72bbecf3674702d4f731) no-repeat 0px -1525px;
+	width: 16px;
+	height: 20px;
+*background-position: 0 -1528px;
+}
+.m-noteitem .vipIcon.heighter {
+	height: 23px;
+}
+.m-noteitem .notecnt {
+	margin: .5em 0;
+	word-wrap: break-word;
+}
+.m-noteitem .j-cmt-box {
+	position: relative;
+	overflow: hidden;
+}
+.m-noteitem .triangle {
+	display: block;
+	width: 10px;
+	height: 7px;
+	position: absolute;
+	top: -5px;
+	right: 180px;
+	background: url(../res/images/asksprite.png?c679afab143fff2755e052c2f190b5fc) no-repeat 4449px 4449px;
+	background-position: 0 -200px;
+}
+.m-noteitem .m-comment-pool .m-data-lists {
+	border: 1px solid #d5d5d5;
+	margin: 10px 0 0 0;
+	background-color: white;
+}
+.m-noteitem .m-comment-pool .m-data-lists .last {
+	border-bottom: none;
+}
+.m-noteitem .m-comment-pool .m-data-lists .comment-delete, .m-noteitem .m-comment-pool .m-data-lists .comment-report {
+	color: #999;
+}
+.m-noteitem .m-add-comment {
+	margin-top: 10px;
+}
+.m-noteitem .usr {
+	color: #21a557;
+	font-family: '宋体 arial';
+	font-size: 14px;
+	padding-left: .7em;
+	line-height: 26px;
+}
+.m-noteitem .notelink, .m-noteitem .noterep {
+	float: left;
+	display: block;
+	font-size: 12px;
+	color: #999;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.m-noteitem .notelink:hover, .m-noteitem .noterep:hover {
+	color: #21a557;
+}
+.m-noteitem .notephoto {
+	max-width: 250px;
+	max-height: 250px;
+}
+.m-noteitem .togBtn {
+	padding: 0 1.5em 0 1em;
+	color: #21a557;
+	white-space: pre-line;
+	background-position: 35px -411px;
+}
+.m-noteitem .togBtn1 {
+	background-position: 35px -430px;
+}
+.m-noteitem .noedit {
+	position: relative;
+	padding: 10px 0 10px 0;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+}
+.m-noteitem .noedit .notect {
+	margin-top: 5px;
+	color: #666;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+.m-noteitem .noedit .noteinfo {
+	color: #97958c;
+}
+.m-noteitem .noedit .noteinfo .notedate {
+	float: left;
+	margin-right: 10px;
+}
+.m-noteitem .noedit .noteinfo .noteopt {
+	float: left;
+}
+.m-noteitem .noedit .noteinfo .noteopt a {
+	float: left;
+	display: block;
+	width: 35px;
+	cursor: pointer;
+	padding-left: 15px;
+	color: #999;
+}
+.m-noteitem .noedit .noteinfo .noteopt a.noteedit {
+	background-position: 0 -15px;
+}
+.m-noteitem .noedit .noteinfo .noteopt a.notedel {
+	background-position: 0 -35px;
+}
+.m-noteitem .noedit .noteinfo .noteopt a:hover {
+	color: #10ae58;
+}
+.m-noteitem .noedit .notepriv {
+	background-position: 1px -119px;
+	width: 1em;
+	height: 1em;
+	float: left;
+	margin: 3px 10px 0 0;
+}
+.m-noteitem .edit {
+	padding: 10px 0 10px 0;
+}
+.m-noteitem .oper {
+	position: relative;
+	z-index: 101;
+}
+.m-noteitem .oper .notedig, .m-noteitem .oper .notecol, .m-noteitem .oper .notesh, .m-noteitem .oper .notecmt {
+	color: #999;
+	font-size: 12px;
+	padding-left: 1.5em;
+	margin-right: 10px;
+	padding-bottom: .2em;
+}
+.m-noteitem .oper .notedig:hover, .m-noteitem .oper .notecol:hover, .m-noteitem .oper .notesh:hover, .m-noteitem .oper .notecmt:hover {
+	color: #21a557;
+	text-decoration: none;
+}
+.m-noteitem .oper .notedig {
+	background-position: 0 -246px;
+}
+.m-noteitem .oper .notedig:hover {
+	background-position: -1px -343px;
+}
+.m-noteitem .oper .notedig.act {
+	background-position: 0 -343px;
+	color: #21a557;
+}
+.m-noteitem .oper .notecol {
+	background-position: 0 -294px;
+}
+.m-noteitem .oper .notecol:hover {
+	background-position: 0 -366px;
+}
+.m-noteitem .oper .notecol.act {
+	background-position: 0 -366px;
+}
+.m-noteitem .oper .notecol.disabled {
+	background-position: 0 -389px;
+}
+.m-noteitem .oper .notesh {
+	background-position: 0 -315px;
+}
+.m-noteitem .oper .notesh:hover {
+	background-position: -1px -451px;
+}
+.m-noteitem .oper .notecmt {
+	background-position: 0 -270px;
+}
+.m-noteitem .oper .notecmt .m-comment-wrapper .u-comment {
+	margin-left: 0;
+	width: auto;
+}
+.m-noteitem .oper .notecmt .m-comment-wrapper .u-comment:hover {
+	text-decoration: none;
+}
+.m-noteitem .oper .notecmt:hover {
+	background-position: -3px -523px;
+}
+.m-noteitem .oper .sharebox {
+	position: absolute;
+	background: white;
+	padding: .5em;
+	border: 1px solid #ddd;
+	right: 5px;
+	max-width: 115px;
+	top: 100%;
+	z-index: 111;
+}
+.m-noteitem .notehead {
+	position: relative;
+}
+.m-noteitem .notehead span {
+	vertical-align: middle;
+}
+.m-noteitem .noteimg {
+	display: block;
+}
+.m-noteitem .noteimg img {
+	margin-top: 10px;
+	max-width: 250px;
+	max-height: 250px;
+}
+.m-noteitem .noeditanchor {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.w-cardnoteitem {
+	width: 337px;
+	height: 70px;
+	padding: 10px 0 10px 10px;
+	background-color: #fff;
+	cursor: pointer;
+	-webkit-box-shadow: 0 1px 1px #999;
+	-moz-box-shadow: 0 1px 1px #999;
+	box-shadow: 0 1px 1px #999;
+	position: relative;
+}
+.w-cardnoteitem:hover {
+	-webkit-box-shadow: 0 2px 3px #999;
+	-moz-box-shadow: 0 2px 3px #999;
+	box-shadow: 0 2px 3px #999;
+}
+.w-cardnoteitem:hover .info .name {
+	color: #009966;
+}
+.w-cardnoteitem .img {
+	float: left;
+	width: 120px;
+	height: 66px;
+}
+.w-cardnoteitem .youdao {
+	width: 17px;
+	height: 17px;
+	background-position: 0 -192px;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+.w-cardnoteitem .info {
+	float: left;
+	margin-left: 10px;
+}
+.w-cardnoteitem .info .name {
+	font-family: '微软雅黑';
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	width: 197px;
+}
+.w-cardnoteitem .info .numwrap {
+	margin-top: 7px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #999;
+}
+.w-cardnoteitem .info .time {
+	margin-top: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #999;
+}
+.m-mynotesToolbar {
+	margin-bottom: 10px;
+}
+.m-mynotesToolbar .nav {
+	height: 30px;
+	border-bottom: 1px solid #7d7e7e;
+	font-family: '微软雅黑';
+}
+.m-mynotesToolbar .nav .navItem, .m-mynotesToolbar .nav .navItem1 {
+	display: block;
+	font-size: 16px;
+	height: 30px;
+	line-height: 21px;
+	bottom: -1px;
+	left: 0;
+	color: #62656e;
+}
+.m-mynotesToolbar .nav .navItem1 {
+	left: 135px;
+}
+.m-mynotesToolbar .nav .current {
+	color: #333;
+	background-position: -32px -1105px;
+}
+.m-myCloudNotes {
+	width: 100%;
+	height: 100%;
+}
+.m-myCloudNotes .empty {
+	padding: 98px 0;
+}
+.m-myCloudNotes .m-myCloudNotesAll .list {
+	margin: -20px 0 0 -20px;
+}
+.m-myCloudNotes .m-myCloudNotesAll .list .m-basepool .m-data-lists .w-cardnoteitem {
+	float: left;
+	margin: 20px 0 0 20px;
+}
+.m-myCloudNotes .m-myCloudNotesAll .empty .u-empty {
+	width: 450px;
+}
+.m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .notenav {
+	position: relative;
+	height: 40px;
+	z-index: 99;
+	border-bottom: 1px solid #a6a6a6;
+	text-align: center;
+}
+.m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .notenav .navItem {
+	position: absolute;
+	display: block;
+	font-size: 14px;
+	height: 35px;
+	width: 70px;
+	line-height: 35px;
+	font-family: "微软雅黑";
+	color: #666;
+	cursor: pointer;
+	bottom: -2px;
+	left: 20px;
+}
+.m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .notenav .navItem.current {
+	color: #333;
+	cursor: default;
+	background-position: -70px -167px;
+}
+.m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .notenav .navItem.navItem1 {
+	left: 125px;
+}
+.m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .itemList, .m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .ctList {
+	padding: 20px;
+}
+.m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .empty .u-empty {
+	height: 40px;
+	width: 400px;
+}
+.m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .empty .u-empty a {
+	display: block;
+	color: #21a557;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 16px;
+}
+.m-myCloudNotes .m-myCloudNotesDetail .m-notesDetailbox .empty .u-empty a:hover {
+	text-decoration: underline;
+}
+.m-notespool {
+	padding: 10px 20px 20px;
+}
+.m-notespool .triangle {
+	right: 146px;
+}
+.m-notespool .usr {
+	padding-left: 0;
+}
+.m-notespool .m-noteitem {
+	border-top: 1px solid #ececec;
+	border-bottom: 0;
+}
+.m-notespool .mnc {
+	position: relative;
+}
+.m-notespool .notehead {
+	overflow: hidden;
+}
+.m-notespool .notehead .noeditanchor {
+	position: relative;
+	top: 0;
+}
+.m-notespool .notehead .notelesson {
+	margin-right: 15px;
+	color: #999;
+	line-height: 16px;
+	cursor: pointer;
+}
+.m-notespool .noedit {
+	margin-left: 64px;
+}
+.m-notespool .img {
+	position: absolute;
+	left: -64px;
+	top: 15px;
+}
+.m-courseintroui {
+	margin-top: -20px;
+	text-align: left;
+}
+.m-courseintroui .intro {
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+	width: 805px;
+}
+.m-courseintroui .wcbi {
+	background-color: #f8f8f8;
+}
+.m-courseintroui .cbi {
+	width: 580px;
+}
+.m-courseintroui .line {
+	background: #ddd;
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	left: 580px;
+	top: 0;
+}
+.m-courseintroui .vline {
+	border-left: 0px solid #ddd;
+}
+.u-moocbtn {
+	display: inline-block;
+	padding: 4px 9px;
+	font-size: 14px;
+	line-height: 28px;
+	color: #666;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	min-width: 80px;
+	font-family: "Arial", "Hiragino Sans GB", "Microsoft YaHei", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+	border: 1px solid #999;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #E1E1E1;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#EBEBEB), to(#E1E1E1));
+	background-image: -moz-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -ms-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(100%, #E1E1E1));
+	background-image: -webkit-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: -o-linear-gradient(#EBEBEB, #E1E1E1);
+	background-image: linear-gradient(#EBEBEB, #E1E1E1);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.u-moocbtn:hover, .u-moocbtn.hvr {
+	background-color: #EDEDED;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#F6F6F6), to(#EDEDED));
+	background-image: -moz-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -ms-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F6F6F6), color-stop(100%, #EDEDED));
+	background-image: -webkit-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: -o-linear-gradient(#F6F6F6, #EDEDED);
+	background-image: linear-gradient(#F6F6F6, #EDEDED);
+}
+.u-moocbtn-sm {
+	padding: 5px 6px;
+	font-size: 12px;
+	line-height: 14px;
+	min-width: 50px;
+}
+.u-coursePlanPayMsg {
+	background: #f5f7fa;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: left;
+}
+.u-coursePlanPayMsg .msg {
+	width: 465px;
+	top: 50%;
+	left: 50%;
+	margin-left: -230px;
+}
+.u-coursePlanPayMsg .msg-course {
+	margin-top: -50px;
+}
+.u-coursePlanPayMsg .msg-plan {
+	margin-top: -100px;
+}
+.u-coursePlanPayMsg .msg-anchor {
+	margin-top: -109px;
+	margin-left: -190px;
+}
+.u-coursePlanPayMsg .wicon {
+	width: 57px;
+	height: 57px;
+	background: url(../res/images/ui/dialogicon.png?2d5114c0c0ab97d522d7a08200bc7ed8) no-repeat;
+}
+.u-coursePlanPayMsg .wcon {
+	padding-left: 25px;
+	width: 380px;
+}
+.u-coursePlanPayMsg .wconAnchor {
+	width: 380px;
+}
+.u-coursePlanPayMsg .title {
+	padding: 10px 0;
+	line-height: 30px;
+	color: #333;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+.u-coursePlanPayMsg .smalltitle {
+	color: #666;
+	font-size: 15px;
+	line-height: 20px;
+}
+.u-coursePlanPayMsg .courseInfo {
+	width: 370px;
+	height: 66px;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 5px;
+}
+.u-coursePlanPayMsg .deInfo {
+	margin-left: 14px;
+	color: #999;
+	font-size: 12px;
+	width: 235px;
+	height: 66px;
+}
+.u-coursePlanPayMsg .courseName {
+	display: block;
+	color: #444;
+	height: 22px;
+	line-height: 19px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	padding-bottom: 3px;
+}
+.u-coursePlanPayMsg .courseRate {
+	height: 23px;
+	line-height: 19px;
+}
+.u-coursePlanPayMsg .courseLearnCount {
+	padding-left: 15px;
+	background-position: -60px -350px;
+}
+.u-coursePlanPayMsg .courseFrom {
+	line-height: 20px;
+}
+.u-coursePlanPayMsg .coursePrice {
+	color: #ff8e1f;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+.u-coursePlanPayMsg del.coursePrice {
+	color: #999;
+}
+.u-coursePlanPayMsg .lessonInfo {
+	line-height: 32px;
+	font-size: 12px;
+	color: #999;
+}
+.u-coursePlanPayMsg .lessonInfo a {
+	padding-left: 15px;
+	color: #10ae58;
+}
+.u-coursePlanPayMsg .lessonInfo a:hover {
+	text-decoration: underline;
+}
+.u-coursePlanPayMsg .buybtn {
+	cursor: pointer;
+	margin-left: 2px;
+	width: 101px;
+	height: 41px;
+	background: url(../res/images/pay/payBtns.png?c9b6b849b38cca45b160a96802575ac8) -13px -71px no-repeat;
+}
+.u-coursePlanPayMsg .buybtn:hover {
+	background: url(../res/images/pay/payBtns.png?c9b6b849b38cca45b160a96802575ac8) -119px -71px no-repeat;
+}
+.u-coursePlanPayMsg .buybtn:active {
+	background: url(../res/images/pay/payBtns.png?c9b6b849b38cca45b160a96802575ac8) -237px -71px no-repeat;
+}
+.u-coursePlanPayMsg .joinBtn {
+	cursor: pointer;
+	margin-left: 80px;
+	width: 105px;
+	height: 41px;
+	background: url(../res/images/pay/payBtns.png?c9b6b849b38cca45b160a96802575ac8) -187px -147px no-repeat;
+}
+.u-coursePlanPayMsg .joinBtn:hover {
+	background: url(../res/images/pay/payBtns.png?c9b6b849b38cca45b160a96802575ac8) -187px -198px no-repeat;
+}
+.u-coursePlanPayMsg .joinBtn:active {
+	background: url(../res/images/pay/payBtns.png?c9b6b849b38cca45b160a96802575ac8) -187px -251px no-repeat;
+}
+.u-coursePlanPayMsg .joinBtn span {
+	float: right;
+	color: #fff;
+	font-family: "微软雅黑";
+	line-height: 41px;
+	font-size: 12px;
+	text-align: center;
+	width: 74px;
+}
+.u-coursePlanPayMsg .cancelBtn {
+	display: block;
+	width: 70px;
+	width: 70px;
+	text-decoration: none;
+	background-position: 60px -450px;
+	margin-left: 96px;
+}
+.u-coursePlanPayMsg .cancelBtn span {
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	width: 50px;
+	font-size: 14px;
+	height: 44px;
+	line-height: 42px;
+	color: #444;
+	background-position: -40px -450px;
+}
+.u-coursePlanPayMsg .cancelBtn:hover {
+	background-position: 60px -500px;
+}
+.u-coursePlanPayMsg .cancelBtn:hover span {
+	background-position: -40px -500px;
+}
+.u-coursePlanPayMsg .cancelBtn:active {
+	background-position: 60px -550px;
+}
+.u-coursePlanPayMsg .cancelBtn:active span {
+	background-position: -40px -550px;
+}
+.u-coursePlanPayMsg .msg-p3 .title {
+	font-size: 26px;
+	line-height: 40px;
+}
+.u-coursePlanPayMsg .priceList {
+	float: left;
+	width: 80px;
+	height: 41px;
+}
+.u-coursePlanPayMsg .priceList .presentPrice, .u-coursePlanPayMsg .priceList .originPrice {
+	color: #ff8509;
+	font-size: 16px;
+	line-height: 20px;
+}
+.u-coursePlanPayMsg .priceList .originPrice {
+	color: #999;
+}
+.u-coursePlanPayMsg .msg-plan {
+	width: 535px;
+	left: 45%;
+}
+.u-coursePlanPayMsg .msg-plan .wcon {
+	width: 450px;
+}
+.u-coursePlanPayMsg .wcon .courseInfo {
+	width: 440px;
+}
+.u-coursePlanPayMsg .wcon .deInfo {
+	width: 305px;
+}
+.headBox {
+	min-height: 197px;
+}
+.u-sortbtn {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.u-sortbtn a {
+	font-size: 12px;
+	color: #666;
+}
+.u-sortbtn a:hover {
+	color: #10ae58;
+}
+.u-sortbtn .s-fc3 {
+	color: #10ae58;
+}
+.u-sortbtn span {
+	color: #dfdfdf;
+}
+.u-addNote {
+	display: block;
+	width: 100%;
+	height: 46px;
+	background: url(../res/images/noteIndex.png?a70559d114f394a7c4c226d679be5757) -1px -1px no-repeat;
+}
+.u-addNote:hover {
+	background-position: -1px -55px;
+}
+.u-addNote:active {
+	background-position: -1px -114px;
+}
+.u-mynote {
+	display: block;
+	height: 45px;
+	width: 100%;
+	font-size: 16px;
+	font-family: '微软雅黑';
+	line-height: 45px;
+	color: #444;
+	background-color: #f3f3f3;
+	text-align: center;
+}
+.u-mynote:hover {
+	background-color: #fff;
+	color: #444;
+}
+.m-notes {
+	border-top: 1px solid #dfdfdf;
+	padding: 1em 22px;
+}
+.m-notespool2 div {
+	width: 276px;
+	margin: 20px auto;
+	padding: 20px 0 20px 65px;
+	font-size: 18px;
+	color: #ccc;
+	font-family: '微软雅黑';
+	background: url(../res/images/bg/Kong.png?5d4bc5bb275c307240f600f821a68f03) 0 26px no-repeat;
+}
+.m-notespool2 a {
+	font-size: 12px;
+	color: #21a557;
+}

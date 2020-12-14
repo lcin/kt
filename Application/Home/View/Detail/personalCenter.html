@@ -1,0 +1,76 @@
+<extend name="Public:layout" />
+<block name="main-content">
+<div id="person-outer-box">
+  <div class="m-personcenter">
+    <div class="j-content-box">
+      <div id="person-inner-box" class="f-cb j-modle-box">
+        <div class="m-personCourse g-flow f-pr f-cb">
+          <div id="person-course-box" class="personCourse">
+            <div class="g-mn2">
+              <div class="g-mn2c f-bg j-coursewrapper">
+                <div class="j-tabs courseTabs"> <a id="auto-id-1450352531621" class="f-ib f-pa tab1 cur">参加的活动</a>
+                </div>
+                <!--<div class="j-pubDir pubDir f-dn"> <a class="plan">计划</a>-<a class="course">课程</a> </div>-->
+                <div style="display: none;" class="j-all-box m-person-course auto-1450352531460-parent">
+                  <div class="m-basepool f-cb auto-1450352531460">
+                    <div class="m-data-lists f-cb f-pr j-data-list"></div>
+                    <div style="display: none;" class="ui-pager f-pr j-data-pager auto-1450352531459-parent">
+                      <div class="auto-1450352531459"><a id="auto-id-1450352531629" class="zbtn zprv js-disabled" href="#">上一页</a><a id="auto-id-1450352531635" class="zpgi zpg1 js-selected" href="#">1</a><a style="display: none;" id="auto-id-1450352531637" class="zpgi zpg2" href="#"></a><a style="display: none;" id="auto-id-1450352531639" class="zpgi zpg3" href="#"></a><a style="display: none;" id="auto-id-1450352531641" class="zpgi zpg4" href="#"></a><a style="display: none;" id="auto-id-1450352531643" class="zpgi zpg5" href="#"></a><a style="display: none;" id="auto-id-1450352531645" class="zpgi zpg6" href="#"></a><a style="display: none;" id="auto-id-1450352531647" class="zpgi zpg7" href="#"></a><a style="display: none;" id="auto-id-1450352531649" class="zpgi zpg8" href="#"></a><a id="auto-id-1450352531631" class="zbtn znxt js-disabled" href="#">下一页</a></div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div style="" class="j-none u-emptybig">
+                  <div class="emptytext">
+                      <foreach name="datas" item="datas">
+                        <div style="margin-top: 50px" class="u-cover u-find-cover first" id="auto-id-1449466894429" style="margin-left:14px">
+                          <div   class="wrap f-cb">
+                            <div  class="img">
+                              <div class="tit">
+                                <h3 class="f-thide">活动名称：{$datas.activityname}</h3>
+                              </div>
+                              <div class="orgName f-fs0 f-thide">加入活动时间：{$datas.jointime}</div>
+                              <div class="orgName f-fs0 f-thide">活动地址：{$datas.place}</div>
+                              <div class="thumb">
+                                <div  style="height:20px;background:white;margin-top:10px;">
+                                  <span class="normal f-fs0" style="color:#FE4000;font-size:12px"><b>报名费：¥{$datas.money}</b></span>
+                                </div>
+                              </div>
+                              <a href="__APP__/Detail/activitydetail/activityid/{$datas.activityid}">查看详情</a>
+                            </div>
+                          </div>
+                          <a  class="red" href="__CONTROLLER__/del/joinid/{$datas.joinid}">
+                            <i class="icon-trash bigger-130">删除</i>
+                          </a>
+                        </div>
+                      </foreach>
+                      <td>{$page}</td>
+                  </div>
+                </div>
+
+                <div class="u-noauth f-bg j-noauth" style="display:none">对不起，该用户设置了隐私，你没有权限查看该项内容！:-(</div>
+              </div>
+            </div>
+            <div class="g-sd2 f-bg">
+              <div class="m-center-side">
+                <div class="top">
+                  <div class="f-fl">个人介绍</div>
+                  <a class="f-fr" href="__CONTROLLER__/personal">更多</a> </div>
+                <div class="bottom">
+                  <div style="display: none;" class="cnt j-cnt"></div>
+                  <div class="j-nocnt" style="">
+                    <div class="u-empty">
+                      <p class="j-eTxt">{$per.description}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</block>

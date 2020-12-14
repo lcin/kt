@@ -1,0 +1,14 @@
+.u-popup{line-height:1.25;position:absolute;z-index:1;left:-240px;top:-75px;width:243px;height:390px;background-image:url(/images2/popup.png);_background-image:url(/images2/popup8.png);}
+.u-popup .pophd{margin:95px 59px 0 51px;padding-bottom:10px;}
+.u-popup .pophd p{font-size:18px;color:#4488c5;text-indent:4px;}
+.u-popup .popcnt{font-family:"宋体";margin:0 22px 30px 23px;border-top:1px solid #ececec;}
+.u-popup .popcnt li{line-height:20px;margin-top:14px;}
+.u-popup .popcnt li.after{margin-top:12px;}
+.u-popup .popcnt li.after1{margin-top:13px;}
+.u-popup .popcnt span{color:#6e6e6e;}
+.u-popup .popidx{width:26px;height:18px;margin-top:5px;margin-left:-2px;background-image:url('');background-repeat:no-repeat;}
+.u-popup .popidx span{color:#fff;padding-left:6px;line-height:18px;}
+
+
+				
+				

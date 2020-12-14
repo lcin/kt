@@ -1,0 +1,123 @@
+<extend name="Public:layout"/>
+<block name="main-content">
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="__APP__">后台主页</a>
+                </li>
+
+                <li>
+                    <a href="#">讲师管理</a>
+                </li>
+                <li class="active">讲师列表</li>
+            </ul><!-- .breadcrumb -->
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    讲师管理
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                        讲师列表
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+                <form action='__CONTROLLER__/index' method="get">
+                    <div class="seachform">
+                        讲师名称: <input name="tname" type="text" placeholder="请输入视频名称" class="scinput" />
+                        &nbsp;&nbsp;&nbsp;<input type="submit" class="btn btn-primary btn-xs"  value="查询"/>
+                    </div>
+                </form>
+                <div><br/></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="table-responsive">
+							<form action="__CONTROLLER__/del">
+                                <table id="sample-table-1" class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+											<th class="center">
+												<label>			
+												<input type="submit" onclick="return confirm('你确认删除吗')" value="删除" class="btn btn-primary btn-xs" />
+												</label>
+											</th>
+                                            <th>讲师编号</th>
+                                            <th>讲师名称</th>
+                                            <th>
+                                                讲师头像
+                                            </th>
+											<th>
+                                                讲师机构
+                                            </th>
+                                            <th>
+                                                讲师简介
+                                            </th>
+											
+                                            <th>
+                                                操作
+                                            </th>
+                                        </tr>
+                                    </thead>
+                  
+                                    <foreach name='teachers' item='teacher'>
+									<tbody> 
+									
+										<tr>
+											<td class="center">
+												<label>
+													<input type="checkbox" name="id[]" value="{$teacher.id}" class="ace" />
+													<span class="lbl"></span>
+												</label>
+											</td>
+                                            <td>
+                                                {$num++}
+                                            </td>
+                                            <td>{$teacher.tname}</td>
+                                         
+                                            <td class="hidden-480">
+												<img src="__PUBLIC__/Upload/{$teacher.photo}" width="40" height="40">
+											</td>
+                                            <td class="hidden-480">{$teacher.organ}</td>
+                                            <td class="hidden-480">{$teacher.description}</td>
+                       
+                                            <td>
+                                                <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
+                                                    <a  href='__CONTROLLER__/mod/id/{$teacher.id}'>
+                                                        修改 |
+                                                    </a>
+
+                                                    <a onclick=" return confirm('你确定删除吗？')" href='__CONTROLLER__/del/id/{$teacher.id}'>
+                                                        删除 
+                                                    </a>
+
+                                                </div>
+
+                                              </td>
+                                        </tr>
+                                    </foreach>
+									<tr>
+										<td colspan="7">{$page}</td>
+									</tr>
+                                    </form>
+                                    </tbody>
+                                </table>
+                            </div><!-- /.table-responsive -->
+                        </div><!-- /span -->
+                    </div><!-- /row -->
+
+                    <div class="hr hr-18 dotted hr-double"></div>
+                    <div class="hr hr-18 dotted hr-double"></div>
+            </div>
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+</block>

@@ -1,0 +1,109 @@
+<extend name="Public:layout"/>
+<block name="main-content">
+	<style type="text/css">
+		#foot{
+			width:100%;
+			height:200px;
+			background:url('__PUBLIC__/Home/imgs/foot.png') no-repeat;
+		}
+		#foot > a:first-of-type{
+			float:right;
+			margin-right:120px;
+			margin-top:44px;
+		}
+		#foot > a:nth-of-type(2){
+			float:right;
+			margin-right:-380px;
+			margin-top:44px;
+		}
+		#foot > a:nth-of-type(3){
+			float:right;
+			margin-right:-230px;
+			margin-top:44px;
+		}
+		.m-app a:first-of-type{
+			float:left;
+			margin-left:400px;
+			font-size:18px;
+			color:#fff;
+			margin-top:253px;
+		}
+		.m-app a:nth-of-type(2){
+			float:left;
+			margin-left:-74.2px;
+			font-size:18px;
+			color:#fff;
+			margin-top:311.6px;
+		}
+		.m-app a:nth-of-type(3){
+			float:left;
+			margin-left:-74px;
+			font-size:18px;
+			color:#fff;
+			margin-top:373px;
+		}
+	</style>
+	<div class="m-app">
+				<div style="display:block;background:url('__PUBLIC__/Home/imgs/yun.png');width:100%;height:440px;top: 60px;">
+					<a href="__PUBLIC__/Download/study-ios-official.apk">iPhone版</a>
+					<a href="__PUBLIC__/Download/study-ipad-official.apk">iPad版</a>
+					<a href="__PUBLIC__/Download/study-android-official.apk">安卓版</a>
+					<input type="hidden"value="{$_SESSION.id}" name="in"/>
+				</div>
+				<div class="sections">
+				<div class="g-flow">
+					<div class="sec sec1 f-cb">
+						<div class="f-fl f-pr pics" style="width:600px;height:600px;background:url('__PUBLIC__/Home/imgs/play.png') no-repeat;margin-left:-50px;margin-top:-130px;">
+						</div>
+						<div class="f-fr f-pr content">
+							<h2>丰富的学习资源</h2>
+							<p class="f-f0"> 涵盖10个大类，近90个小类，几千门课程；<br>
+							在这里，学习大学专业课程，可以获得权威证书；<br>
+							学习实用技能类课程，助你成功求职创业；<br>
+							还有兴趣爱好类课程，给你增添生活趣味。<br>
+							</p>
+						</div>
+					</div>
+					<div class="sec sec2 f-cb">
+						<div class="f-fr f-pr pics"style="width:600px;height:600px;background:url('__PUBLIC__/Home/imgs/fun.png') no-repeat;margin-top:-150px;" >
+						</div>
+						<div class="f-fl f-pr content">
+							<h2>随时随地掌握学习进度</h2>
+							<p class="f-f0">只需一个帐号，你在电脑、iPad，手机上的学习记录 就可实时同步更新，让你平滑切换、流畅学习。</p>
+						</div>
+					</div>
+					<div class="sec sec3 f-cb">
+						<div class="f-fl f-pr pics"style="width:600px;height:600px;background:url('__PUBLIC__/Home/imgs/enjoy.png') no-repeat;margin-top:-280px;margin-left:-40px;">
+						</div>
+						<div class="f-fr f-pr content">
+							<h2>离线学习</h2>
+							<p class="f-f0">提前下载好想看的视频或文档资源，帮你节省网络 数据流量，无网情况下，一样畅快学习。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div>
+			<div>
+				<div id="foot" style="">
+					<a href="__PUBLIC__/Download/study-android-official.apk" class="f-fr f-f0 dbtn android">安卓版</a>
+					<a href="__PUBLIC__/Download/study-ipad-official.apk" class="f-fr f-f0 dbtn ios">iPad版</a>
+					<a href="__PUBLIC__/Download/study-ios-official.apk" class="f-fr f-f0 dbtn ios">iPhone版</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" charset="utf-8">
+		$(".m-app a").click(function(){	
+			var val=$(this).text();
+			var uid=$("[name='in']").val();
+			$.ajax({
+				type:"GET",
+				url:"__CONTROLLER__/Download",
+				data:{"filename":val,"uid":uid},
+				success:function(b){
+					
+				}
+			});
+		});
+	</script>
+</block>

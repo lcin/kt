@@ -1,0 +1,338 @@
+/*
+ * 各产品皮肤
+ *
+ * [Change Log]
+ * 2013-08-15 周卿 创建
+ * 2013-08-22 周卿 弹窗也加上换肤
+ * 2013-08-26 周卿 增加《斩魂ql》、《大唐无双dtws》皮肤
+ * 2013-08-28 周卿 增加《梦幻西游xyq》、《大话外传xyw》皮肤
+ * 2013-08-30 周卿 增加《天下3tx2》皮肤
+ * 2013-09-26 周卿 《同城约会》皮肤修改
+ * 2013-09-26 周卿 增加《网易保健品》皮肤
+ * 2013-10-30 周卿 增加《龙剑》皮肤
+ * 2013-11-06 周卿 增加《天谕》皮肤
+ * 2013-12-02 周卿 增加《藏地传奇》皮肤
+ */
+
+/* caipiao */
+.s-caipiao .m-tab .tabHd li.z-on a,
+.s-caipiao .u-step ol li.z-on span{border-color:#b82337;}
+.s-caipiao .u-btn2,
+.s-caipiao .iDialogHead,
+.s-caipiao .iDialogBtn,
+.s-caipiao .iDialogBtn span{background:#b82337;}
+.s-caipiao .u-btn2:hover,
+.s-caipiao .iDialogHead:hover,
+.s-caipiao .iDialogBtn:hover,
+.s-caipiao .iDialogBtn:hover span{background:#ba3244;}
+.s-caipiao .u-btn2:active,
+.s-caipiao .iDialogHead:active,
+.s-caipiao .iDialogBtn:active,
+.s-caipiao .iDialogBtn:active span{background:#a8192c;}
+
+/* caipiaotcy */
+.s-caipiaotcy .m-tab .tabHd li.z-on a,
+.s-caipiaotcy .u-step ol li.z-on span{border-color:#b82337;}
+.s-caipiaotcy .u-btn2,
+.s-caipiaotcy .iDialogHead,
+.s-caipiaotcy .iDialogBtn,
+.s-caipiaotcy .iDialogBtn span{background:#b82337;}
+.s-caipiaotcy .u-btn2:hover,
+.s-caipiaotcy .iDialogHead:hover,
+.s-caipiaotcy .iDialogBtn:hover,
+.s-caipiaotcy .iDialogBtn:hover span{background:#ba3244;}
+.s-caipiaotcy .u-btn2:active,
+.s-caipiaotcy .iDialogHead:active,
+.s-caipiaotcy .iDialogBtn:active,
+.s-caipiaotcy .iDialogBtn:active span{background:#a8192c;}
+.s-caipiaotcy .g-doc{background:#ede6de url(/images2/products/caipiaotcy/bg.jpg) no-repeat center bottom;}
+
+/* photo */
+.s-photo .m-tab .tabHd li.z-on a,
+.s-photo .u-step ol li.z-on span{border-color:#53a8dd;}
+.s-photo .u-btn2,
+.s-photo .iDialogHead,
+.s-photo .iDialogBtn,
+.s-photo .iDialogBtn span{background:#53a8dd;}
+.s-photo .u-btn2:hover,
+.s-photo .iDialogHead:hover,
+.s-photo .iDialogBtn:hover,
+.s-photo .iDialogBtn:hover span{background:#67b2e0;}
+.s-photo .u-btn2:active,
+.s-photo .iDialogHead:active,
+.s-photo .iDialogBtn:active,
+.s-photo .iDialogBtn:active span{background:#469acf;}
+
+/* yuehui */
+/*.s-yuehui .m-tab .tabHd li.z-on a,
+.s-yuehui .u-step ol li.z-on span{border-color:#d83473;}
+.s-yuehui .u-btn2,
+.s-yuehui .iDialogHead,
+.s-yuehui .iDialogBtn,
+.s-yuehui .iDialogBtn span{background:#d83473;}
+.s-yuehui .u-btn2:hover,
+.s-yuehui .iDialogHead:hover,
+.s-yuehui .iDialogBtn:hover,
+.s-yuehui .iDialogBtn:hover span{background:#db467f;}
+.s-yuehui .u-btn2:active,
+.s-yuehui .iDialogHead:active,
+.s-yuehui .iDialogBtn:active,
+.s-yuehui .iDialogBtn:active span{background:#c92866;}
+.s-yuehui .g-doc{background:#f7f4f2;}*/
+
+.s-yuehui .g-doc{background:#bca18b url(/images2/products/yuehui/bg.png) no-repeat center 50px;}
+
+/* x3 */
+.s-x3 .m-tab .tabHd li.z-on a,
+.s-x3 .u-step ol li.z-on span{border-color:#771aae;}
+.s-x3 .u-btn2,
+.s-x3 .iDialogHead,
+.s-x3 .iDialogBtn,
+.s-x3 .iDialogBtn span{background:#771aae;}
+.s-x3 .u-btn2:hover,
+.s-x3 .iDialogHead:hover,
+.s-x3 .iDialogBtn:hover,
+.s-x3 .iDialogBtn:hover span{background:#7e28b0;}
+.s-x3 .u-btn2:active,
+.s-x3 .iDialogHead:active,
+.s-x3 .iDialogBtn:active,
+.s-x3 .iDialogBtn:active span{background:#6b119e;}
+.s-x3 .g-doc{background:#f0f2ff url(/images2/products/x3/bg.jpg) no-repeat center 50px;}
+
+/* xy2 */
+.s-xy2 .m-tab .tabHd li.z-on a,
+.s-xy2 .u-step ol li.z-on span{border-color:#1c9195;}
+.s-xy2 .u-btn2,
+.s-xy2 .iDialogHead,
+.s-xy2 .iDialogBtn,
+.s-xy2 .iDialogBtn span{background:#1c9195;}
+.s-xy2 .u-btn2:hover,
+.s-xy2 .iDialogHead:hover,
+.s-xy2 .iDialogBtn:hover,
+.s-xy2 .iDialogBtn:hover span{background:#299396;}
+.s-xy2 .u-btn2:active,
+.s-xy2 .iDialogHead:active,
+.s-xy2 .iDialogBtn:active,
+.s-xy2 .iDialogBtn:active span{background:#148185;}
+.s-xy2 .g-doc{background:#eff8f5 url(/images2/products/xy2/bg.jpg) no-repeat center 50px;}
+
+/* xy3 */
+.s-xy3 .m-tab .tabHd li.z-on a,
+.s-xy3 .u-step ol li.z-on span{border-color:#1289dd;}
+.s-xy3 .u-btn2,
+.s-xy3 .iDialogHead,
+.s-xy3 .iDialogBtn,
+.s-xy3 .iDialogBtn span{background:#1289dd;}
+.s-xy3 .u-btn2:hover,
+.s-xy3 .iDialogHead:hover,
+.s-xy3 .iDialogBtn:hover,
+.s-xy3 .iDialogBtn:hover span{background:#2492e0;}
+.s-xy3 .u-btn2:active,
+.s-xy3 .iDialogHead:active,
+.s-xy3 .iDialogBtn:active,
+.s-xy3 .iDialogBtn:active span{background:#087ccf;}
+.s-xy3 .g-doc{background:#e1f1ff url(/images2/products/xy3/bg.jpg) no-repeat center 50px;}
+
+/* dota */
+.s-dota .m-tab .tabHd li.z-on a,
+.s-dota .u-step ol li.z-on span{border-color:#323232;}
+.s-dota .u-btn2,
+.s-dota .iDialogHead,
+.s-dota .iDialogBtn,
+.s-dota .iDialogBtn span{background:#323232;}
+.s-dota .u-btn2:hover,
+.s-dota .iDialogHead:hover,
+.s-dota .iDialogBtn:hover,
+.s-dota .iDialogBtn:hover span{background:#3d3d3d;}
+.s-dota .u-btn2:active,
+.s-dota .iDialogHead:active,
+.s-dota .iDialogBtn:active,
+.s-dota .iDialogBtn:active span{background:#262626;}
+.s-dota .g-doc{background:#181818 url(/images2/products/dota/bg.jpg) no-repeat center 50px;}
+
+/* wh */
+.s-wh .m-tab .tabHd li.z-on a,
+.s-wh .u-step ol li.z-on span{border-color:#266ab9;}
+.s-wh .u-btn2,
+.s-wh .iDialogHead,
+.s-wh .iDialogBtn,
+.s-wh .iDialogBtn span{background:#266ab9;}
+.s-wh .u-btn2:hover,
+.s-wh .iDialogHead:hover,
+.s-wh .iDialogBtn:hover,
+.s-wh .iDialogBtn:hover span{background:#3775bd;}
+.s-wh .u-btn2:active,
+.s-wh .iDialogHead:active,
+.s-wh .iDialogBtn:active,
+.s-wh .iDialogBtn:active span{background:#1d5fab;}
+.s-wh .g-doc{background:#e1f1ff url(/images2/products/wh/bg.jpg) no-repeat center 50px;}
+
+/* ql */
+.s-ql .m-tab .tabHd li.z-on a,
+.s-ql .u-step ol li.z-on span{border-color:#a10000;}
+.s-ql .u-btn2,
+.s-ql .iDialogHead,
+.s-ql .iDialogBtn,
+.s-ql .iDialogBtn span{background:#a10000;}
+.s-ql .u-btn2:hover,
+.s-ql .iDialogHead:hover,
+.s-ql .iDialogBtn:hover,
+.s-ql .iDialogBtn:hover span{background:#a30d0d;}
+.s-ql .u-btn2:active,
+.s-ql .iDialogHead:active,
+.s-ql .iDialogBtn:active,
+.s-ql .iDialogBtn:active span{background:#910000;}
+.s-ql .g-doc{background:#e8e9ed url(/images2/products/ql/bg.jpg) no-repeat center 50px;}
+
+/* zh */
+.s-zh .m-tab .tabHd li.z-on a,
+.s-zh .u-step ol li.z-on span{border-color:#a10000;}
+.s-zh .u-btn2,
+.s-zh .iDialogHead,
+.s-zh .iDialogBtn,
+.s-zh .iDialogBtn span{background:#a10000;}
+.s-zh .u-btn2:hover,
+.s-zh .iDialogHead:hover,
+.s-zh .iDialogBtn:hover,
+.s-zh .iDialogBtn:hover span{background:#a30d0d;}
+.s-zh .u-btn2:active,
+.s-zh .iDialogHead:active,
+.s-zh .iDialogBtn:active,
+.s-zh .iDialogBtn:active span{background:#910000;}
+.s-zh .g-doc{background:#e8e9ed url(/images2/products/ql/bg.jpg) no-repeat center 50px;}
+
+/* dtws */
+.s-dtws .m-tab .tabHd li.z-on a,
+.s-dtws .u-step ol li.z-on span{border-color:#494f55;}
+.s-dtws .u-btn2,
+.s-dtws .iDialogHead,
+.s-dtws .iDialogBtn,
+.s-dtws .iDialogBtn span{background:#494f55;}
+.s-dtws .u-btn2:hover,
+.s-dtws .iDialogHead:hover,
+.s-dtws .iDialogBtn:hover,
+.s-dtws .iDialogBtn:hover span{background:#525457;}
+.s-dtws .u-btn2:active,
+.s-dtws .iDialogHead:active,
+.s-dtws .iDialogBtn:active,
+.s-dtws .iDialogBtn:active span{background:#383f45;}
+.s-dtws .g-doc{background:#e3eaf4 url(/images2/products/dtws/bg.jpg) no-repeat center 50px;}
+
+/* xyq */
+.s-xyq .m-tab .tabHd li.z-on a,
+.s-xyq .u-step ol li.z-on span{border-color:#2dc4ef;}
+.s-xyq .u-btn2,
+.s-xyq .iDialogHead,
+.s-xyq .iDialogBtn,
+.s-xyq .iDialogBtn span{background:#2dc4ef;}
+.s-xyq .u-btn2:hover,
+.s-xyq .iDialogHead:hover,
+.s-xyq .iDialogBtn:hover,
+.s-xyq .iDialogBtn:hover span{background:#41ccf2;}
+.s-xyq .u-btn2:active,
+.s-xyq .iDialogHead:active,
+.s-xyq .iDialogBtn:active,
+.s-xyq .iDialogBtn:active span{background:#22b7e0;}
+.s-xyq .g-doc{background:#e3faff url(/images2/products/xyq/bg.jpg) no-repeat center 50px;}
+
+/* xyw */
+.s-xyw .m-tab .tabHd li.z-on a,
+.s-xyw .u-step ol li.z-on span{border-color:#cd1010;}
+.s-xyw .u-btn2,
+.s-xyw .iDialogHead,
+.s-xyw .iDialogBtn,
+.s-xyw .iDialogBtn span{background:#cd1010;}
+.s-xyw .u-btn2:hover,
+.s-xyw .iDialogHead:hover,
+.s-xyw .iDialogBtn:hover,
+.s-xyw .iDialogBtn:hover span{background:#cf2121;}
+.s-xyw .u-btn2:active,
+.s-xyw .iDialogHead:active,
+.s-xyw .iDialogBtn:active,
+.s-xyw .iDialogBtn:active span{background:#bd1111;}
+.s-xyw .g-doc{background:#fdf6ee url(/images2/products/xyw/bg.jpg) no-repeat center 50px;}
+
+/* tx2 */
+.s-tx2 .m-tab .tabHd li.z-on a,
+.s-tx2 .u-step ol li.z-on span{border-color:#090909;}
+.s-tx2 .u-btn2,
+.s-tx2 .iDialogHead,
+.s-tx2 .iDialogBtn,
+.s-tx2 .iDialogBtn span{background:#090909;}
+.s-tx2 .u-btn2:hover,
+.s-tx2 .iDialogHead:hover,
+.s-tx2 .iDialogBtn:hover,
+.s-tx2 .iDialogBtn:hover span{background:#1a1a1a;}
+.s-tx2 .u-btn2:active,
+.s-tx2 .iDialogHead:active,
+.s-tx2 .iDialogBtn:active,
+.s-tx2 .iDialogBtn:active span{background:#000;}
+.s-tx2 .g-doc{background:#fffef9 url(/images2/products/tx2/bg.jpg) no-repeat center 50px;}
+
+/* baojian */
+.s-baojian .m-tab .tabHd li.z-on a,
+.s-baojian .u-step ol li.z-on span{border-color:#5a8800;}
+.s-baojian .u-btn2,
+.s-baojian .iDialogHead,
+.s-baojian .iDialogBtn,
+.s-baojian .iDialogBtn span{background:#5a8800;}
+.s-baojian .u-btn2:hover,
+.s-baojian .iDialogHead:hover,
+.s-baojian .iDialogBtn:hover,
+.s-baojian .iDialogBtn:hover span{background:#5f8a0b;}
+.s-baojian .u-btn2:active,
+.s-baojian .iDialogHead:active,
+.s-baojian .iDialogBtn:active,
+.s-baojian .iDialogBtn:active span{background:#507800;}
+.s-baojian .g-doc{background:#ffffe5 url(/images2/products/baojian/bg.jpg) no-repeat center 50px;}
+
+/* lj */
+.s-lj .m-tab .tabHd li.z-on a,
+.s-lj .u-step ol li.z-on span{border-color:#163b56;}
+.s-lj .u-btn2,
+.s-lj .iDialogHead,
+.s-lj .iDialogBtn,
+.s-lj .iDialogBtn span{background:#163b56;}
+.s-lj .u-btn2:hover,
+.s-lj .iDialogHead:hover,
+.s-lj .iDialogBtn:hover,
+.s-lj .iDialogBtn:hover span{background:#1e4159;}
+.s-lj .u-btn2:active,
+.s-lj .iDialogHead:active,
+.s-lj .iDialogBtn:active,
+.s-lj .iDialogBtn:active span{background:#103047;}
+.s-lj .g-doc{background:#fff url(/images2/products/lj/bg.jpg) no-repeat center 50px;}
+
+/* ty */
+.s-ty .m-tab .tabHd li.z-on a,
+.s-ty .u-step ol li.z-on span{border-color:#a18f51;}
+.s-ty .u-btn2,
+.s-ty .iDialogHead,
+.s-ty .iDialogBtn,
+.s-ty .iDialogBtn span{background:#a18f51;}
+.s-ty .u-btn2:hover,
+.s-ty .iDialogHead:hover,
+.s-ty .iDialogBtn:hover,
+.s-ty .iDialogBtn:hover span{background:#a3935f;}
+.s-ty .u-btn2:active,
+.s-ty .iDialogHead:active,
+.s-ty .iDialogBtn:active,
+.s-ty .iDialogBtn:active span{background:#917f43;}
+.s-ty .g-doc{background:#fff url(/images2/products/ty/bg.jpg) no-repeat center 50px;}
+
+/* zdcq */
+.s-zdcq .m-tab .tabHd li.z-on a,
+.s-zdcq .u-step ol li.z-on span{border-color:#b1932a;}
+.s-zdcq .u-btn2,
+.s-zdcq .iDialogHead,
+.s-zdcq .iDialogBtn,
+.s-zdcq .iDialogBtn span{background:#b1932a;}
+.s-zdcq .u-btn2:hover,
+.s-zdcq .iDialogHead:hover,
+.s-zdcq .iDialogBtn:hover,
+.s-zdcq .iDialogBtn:hover span{background:#b39839;}
+.s-zdcq .u-btn2:active,
+.s-zdcq .iDialogHead:active,
+.s-zdcq .iDialogBtn:active,
+.s-zdcq .iDialogBtn:active span{background:#a18520;}
+.s-zdcq .g-doc{background:#1e100a url(/images2/products/zdcq/bg.jpg) no-repeat center 50px;}

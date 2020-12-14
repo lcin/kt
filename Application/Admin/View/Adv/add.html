@@ -1,0 +1,125 @@
+<extend name="Public:layout"/>
+<block name="main-content">
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="#">主页</a>
+                </li>
+
+                <li>
+                    <a href="#">广告管理</a>
+                </li>
+                <li class="active">修改广告</li>
+            </ul><!-- .breadcrumb -->
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    广告管理
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                    修改广告
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+
+                    <form class="form-horizontal" action='__CONTROLLER__/add' role="form" method='post' enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" id="price" name="price" for="form-field-1"> 广告价格 </label>
+
+                            <div class="col-sm-9">
+                                <input type="text"  class="col-xs-10 col-sm-5"  name='price' value="{$adv.price}" />
+                                
+                            </div>
+                            
+                        </div>
+
+                        <div class="space-4"></div>
+						
+						<div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" id="pic" name="pic" for="form-field-1"> 广告图片 </label>
+
+                            <div class="col-sm-9">
+                                <input type="file"  class="col-xs-10 col-sm-5"  name='pic' value="{$adv.pic}" />
+                                
+                            </div>
+                            
+                        </div>
+
+                        <div class="space-4"></div>	
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" name="url" for="form-field-2"> 广告地址</label>
+
+                            <div class="col-sm-9">
+                                <input type="text" name='url' value="study/admin.php/Adv/index.html"  class="col-xs-10 col-sm-5" />
+                                
+                            </div>
+                        </div>
+
+						 <div class="space-4"></div>
+						
+	
+							
+						
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" name="des" for="form-field-2"> 广告描述</label>
+
+                            <div class="col-sm-9">
+                                <textarea  type="text"  name='des' value="{$adv.des} class="col-xs-10 col-sm-5" style="width:325px;height:150px">
+                                </textarea>
+                            </div>
+                        </div>
+						
+						 <div class="space-4"></div>
+						 
+						<div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" name="place" for="form-field-2"> 广告位置</label>
+
+                            <div class="col-sm-9">
+								<select name="place">
+									<option>未选择</option>
+									<option value="0">首部轮播</option>
+									<option value="1">热门广告</option>
+									<option value="2">尾部左侧广告</option>
+									<option value="3">尾部右侧广告</option>
+								</select>
+                            </div>
+                        </div>
+                       
+
+                        <div class="space-4"></div>
+
+                        <div class="clearfix form-actions">
+                            <div class="col-md-offset-3 col-md-9">
+                               <input type='submit' name='sub' class="btn btn-info" value='添加'/>
+                               <input type='hidden' name='id' class="btn btn-info" value='{$adv.id}'/>
+                              
+                               <!--<a href='__CONTROLLER__/index' class="btn btn-info" type="submit" name='sub'>
+                                    
+                                </a>
+
+                                &nbsp; &nbsp; &nbsp;
+                                <a href='#' class="btn" type="reset" name='sub'>
+                                    <i class="icon-undo bigger-110"></i>
+                                    Reset
+                                </a>-->
+                            </div>
+                        </div>
+                    </form>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div>
+</block>

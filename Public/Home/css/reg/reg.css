@@ -1,0 +1,22 @@
+/* 修正边距等 */
+.u-btn2,.tabBd .u-check{margin-left:2px;}
+#regEmail,#regPhone{margin-bottom:20px;}
+.m-ipt{margin-bottom:30px;}
+.f-mb0{margin-bottom:0;}
+.regFormSplit{width:390px;margin:10px 0 20px 2px;text-align:right;}
+
+.newEmailIpt label,.newEmailIpt .u-ipt{width:188px;}
+.newEmailIpt .u-ipt{margin-right:10px;}
+.newEmailIpt .m-sel{float:left;margin-right:30px;}
+.newEmailIpt .m-sel .selInput{width:177px;}
+.newEmailIpt .m-sel .selInput .u-ipt{width:159px;}
+.newEmailIpt .m-sel .selOptions{width:171px;}
+
+#mailIfr iframe{height:330px;width:760px;margin:0 0 20px -115px;border:none;}
+#pwd
+{float:left;margin-left:280px;margin-top:-30px;font-size:14px;
+}
+#nu{float:left;margin-left:270px;margin-top:-30px;font-size:14px;}
+#pwd1{float:left;margin-left:270px;margin-top:-30px;font-size:14px;
+}
+#emailSelect .u-ipt input{position:relative;left:-8px;}

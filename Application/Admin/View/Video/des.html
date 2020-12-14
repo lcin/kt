@@ -1,0 +1,86 @@
+<extend name="Public:layout"/>
+<block name="main-content">
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="__APP__">后台主页</a>
+                </li>
+
+                <li>
+                    <a href="#">视频管理</a>
+                </li>
+                <li class="active">视频内容</li>
+            </ul><!-- .breadcrumb -->
+
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    视频管理
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                        视频内容
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+                <div><br/></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="table-responsive">
+                                <table id="sample-table-1" class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                        
+                                            <th>视频编号</th>
+                                            <th>视频名称</th>
+											<th>
+                                                视频价格
+                                            </th>
+                                            <th>
+                                                视频类型
+                                            </th>
+											<th>
+                                                讲师
+                                            </th>
+											<th>
+                                                讲师机构
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    
+									<tbody> 
+										<tr>
+                                            <td>
+                                               {$video.id}
+                                            </td>
+                                            <td>{$video.title}</td>
+                                         
+                                            <td class="hidden-480">{$video.price}</td>
+                                            <td class="hidden-480">{$video.name}</td>
+                                            <td class="hidden-480">{$video.tname}</td>
+                                            <td class="hidden-480">{$video.organ}</td>
+										</tr>
+                                    
+                                    </form>
+                                    </tbody>
+                                </table>
+                            </div><!-- /.table-responsive -->
+                        </div><!-- /span -->
+                    </div><!-- /row -->
+
+                    <div class="hr hr-18 dotted hr-double"></div>
+                    <div class="hr hr-18 dotted hr-double"></div>
+            </div>
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+</block>
